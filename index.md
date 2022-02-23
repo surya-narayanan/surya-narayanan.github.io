@@ -6,7 +6,7 @@ layout: default
 
 <!-- <img class="profile-picture" src="sherlock.jpg"> -->
 
-Think deeply about who you are. Then, send me an email to receive a brief about who I am.
+Hello, here I am. Thank god you've finally found me. I was getting lonely in my corner of the internet. 
 
 ## Research Interest
 
