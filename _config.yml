@@ -1,6 +1,6 @@
 title: Respect my authority
-url: "https://surya-narayanan.github.io/"
-baseurl: "/literaly_what_is_this"
+url: "https://surya-narayanan.github.io"
+baseurl: "/"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
