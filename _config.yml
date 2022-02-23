@@ -1,6 +1,6 @@
-title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
+title: Respect my authority
+url: "https://surya-narayanan.github.io/"
+baseurl: "/literaly_what_is_this"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -9,7 +9,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_text: "Forked from design by Ankit Sultana"
 
 sass:
     style: compressed
