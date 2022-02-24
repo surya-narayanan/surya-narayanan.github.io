@@ -19,3 +19,5 @@ is_contact: true
 2. [Twitter](www.twitter.com/ecstaticindian)
 3. [Instagram](www.instagram.com/ecstaticindian)
 4. [Linkedin](https://www.linkedin.com/in/suryanarayanan21/)
+4. [Lichess](https://lichess.org/@/suryahari)
+4. [Codeforces](https://codeforces.com/profile/suryanarayananhari)
