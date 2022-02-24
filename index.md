@@ -6,7 +6,7 @@ layout: default
 
 <!-- <img class="profile-picture" src="sherlock.jpg"> -->
 
-Hi, my name is *Surya Narayanan*. I am a Tamilian and grew up in Mumbai, India.
+Hi! My name is *Surya Narayanan*. I am a Tamilian and grew up in Mumbai, India.
 
 ## Research Interest
 
