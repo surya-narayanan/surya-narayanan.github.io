@@ -28,8 +28,11 @@ I enjoy art. If you enjoy any of these pieces, let me know. I want to know that 
 4. Agnes Martin (NY MOMA? long time, dont remember)
 
 Music
-1. Jon Higgins 
-2. 
+1. Jon Higgins' Endharo Mahanubavulu
+2. Ananda Shankar's Jumpin Jack Flash
+3. Salamat Nazakat's Sawal Mor Muhara
+4. Anokha Ladla by Bilqeez Khanum
+5. Imagine by Dr. Dre and Snoop Dogg
 
 
 I read books. If you read a book here, message me. Life is better lived in company.
