@@ -16,9 +16,9 @@ I am a cancer researcher at the Dana Farber. I graduated from Stanford Universit
 
 Here is a link to my [google scholar](http://google.com)
 
-## Typography
+<!-- ## Typography
 
-Something *italics* and something **bold**.
+Something *italics* and something **bold**. -->
 
 <!-- Here is a table
 
