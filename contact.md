@@ -15,6 +15,7 @@ is_contact: true
 
 ## Social
 
-1. [Facebook](#ecstaticindian)
-2. [Twitter](#ecstaticindian)
-3. [Instagram](#ecstaticindian)
+1. [Facebook](www.facebook.com/ecstaticindian)
+2. [Twitter](www.twitter.com/ecstaticindian)
+3. [Instagram](www.instagram.com/ecstaticindian)
+4. [Linkedin](https://www.linkedin.com/in/suryanarayanan21/)
