@@ -6,22 +6,21 @@ layout: default
 
 <!-- <img class="profile-picture" src="sherlock.jpg"> -->
 
-Hello, here I am. Thank god you've finally found me. I was getting lonely in my corner of the internet. 
+Hi, my name is *Surya Narayanan*. I am a Tamilian and grew up in Mumbai, India.
 
 ## Research Interest
 
-I am a cancer researcher at the Dana Farber. I graduated from Stanford University, my backup choice and disrupted plenty.
+I am a cancer researcher at the Dana Farber. I graduated from Stanford University.
 
 ## Publications
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+Here is a link to my [google scholar](http://google.com)
 
 ## Typography
 
-This is a [link](http://google.com). Something *italics* and something **bold**.
+Something *italics* and something **bold**.
 
-Here is a table
+<!-- Here is a table
 
 Year | Award | Category
 -----|-------|--------
@@ -29,15 +28,9 @@ Year | Award | Category
 2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
 2014 | Satellite | Won Best Actor miniseries or television film
 
-Here is a horizontal rule
+Here is a horizontal rule -->
 
 ---
 
-Here is a blockquote
-
 > To a great mind, nothing is little
 
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
