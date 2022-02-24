@@ -13,7 +13,7 @@ Hi, my name is *Surya Narayanan*. I am a Tamilian and grew up in Mumbai, India.
 I am a cancer researcher at the Dana Farber. I graduated from Stanford University.
 
 ## Publications
-
+ 
 Here is a link to my [google scholar](http://google.com)
 
 <!-- ## Typography
