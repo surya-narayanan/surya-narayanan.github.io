@@ -28,7 +28,11 @@ I enjoy art. If you enjoy any of these pieces, let me know. I want to know that 
 4. Agnes Martin (NY MOMA? long time, dont remember)
 
 Music
-1. Jon Higgins' Endharo Mahanubavulu
+1. Jon Higgins' Endharo Mahanubavulu 
+> Higgins was so proficient in Carnatic music that he was called Higgins Bhagvathar. When he visited the Udupi Shri Krishna temple, he was denied entry because of his white skin by those who managed the temple. He stood at the gate and sang in chaste Kannada the Vyasatirtha composition, ‘Krishna nee begane baro’ , an action that was similar to Kanaka Dasa's protest in 16th century. He was permitted entry immediately, possibly to avert an 'intervention from the deity', that Kanaka Dasa's legend spoke of.
+
+From his wikipedia page
+
 2. Ananda Shankar's Jumpin Jack Flash
 3. Salamat Nazakat's Sawal Mor Muhara
 4. Anokha Ladla by Bilqeez Khanum
