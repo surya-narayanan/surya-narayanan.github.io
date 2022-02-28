@@ -19,6 +19,7 @@ I will write movies here. If you watch them, message me.
 16. La Grande Bellezza: One of my fave
 17. Vivek (Reason): Woke me to the Indian left
 18. Paris, Texas: Slow, but interesting character development
+19: 8 1/2: Really good. Slow, deep, thoughtful, meta.
 
 <!-- I enjoy art. If you enjoy any of these pieces, let me know. I want to know that I am in good company.
 

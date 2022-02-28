@@ -14,7 +14,7 @@ I am a cancer researcher at the Dana Farber. I graduated from Stanford Universit
 
 ## Publications
  
-Here is a link to my [google scholar](http://google.com)
+Here is a link to my [google scholar](https://scholar.google.com/citations?user=91W6K84AAAAJ&hl=en)
 
 <!-- ## Typography
 
