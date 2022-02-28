@@ -2,39 +2,24 @@ I like movies. Who doesn't..
 
 I will write movies here. If you watch them, message me.
 
-1. Children of Paradise part 2
-2. Children of Paradise part 1
-This movie was the first pop movie I had seen in a while. I really enjoyed the character introductions- the people you'd least expect to drive the plot are later revealed to be protagonists. 
-3. Hoop Dreams
-I watched this movie over two days. So revelatory. Following the cast today, makes me realize how poignant this story is.
-4. Old Joy
-A really calm movie- not one I expected to really like. 
-5. Ata me
-A really interesting ending- I did not expect such a powerful movie to end in a way that I thought catered to a populist audience
-6. Clemency
-Not into really high budget films, but one I really liked. I enjoyed the acting of all the cast, and wished a few were given more screen time (specifically the prisoner)
-7. M
-Not my favorite villain till the very end, and a very interesting climax. However, the plot as a whole was a blend of amusement and serious, which I found to be lost to time.
-8. La Cienaga 
-A slow movie, but one with great promise
-9. Metropolitan
-One of my favorites. This genre really appeals to my character- quick witted, great dialogue, characters used well.
-10. Roshomon
-Classic
-11. Seven Samurai
-Classic
-12. Ikiru
-Classic
-13. Andrei Rublev
-Solid movie. Took me 3 days to watch it. 
-14. Battleship Potemkin
-Tough movie to watch. The ending was really captivating
-15. .. Rue de Quai, Bruxelles
-Classic. Difficult to watch in parts
-16. La Grande Bellezza
-17. Anand Patwardhan movies
-18. Paris, Texas
-Fun watch- expected more nature.
+1. Children of Paradise part 1, 2: This movie was the first pop movie I had seen in a while. I really enjoyed the character introductions- the people you'd least expect to drive the plot are later revealed to be protagonists. 
+2. (Original Cast Album) Company: What got me into musicals
+3. Hoop Dreams: I watched this movie over two days. So revelatory. Following the cast today, makes me realize how poignant this story is.
+4. Old Joy: A really calm movie- not one I expected to really like. 
+5. Ata me: A really interesting ending- I did not expect such a powerful movie to end in a way that I thought catered to a populist audience
+6. Clemency: Not into really high budget films, but one I really liked. I enjoyed the acting of all the cast, and wished a few were given more screen time (specifically the prisoner)
+7. M: Not my favorite villain till the very end, and a very interesting climax. However, the plot as a whole was a blend of amusement and serious, which I found to be lost to time.
+8. La Cienaga: A slow movie, but one with great promise
+9. Metropolitan: One of my favorites. This genre really appeals to my character- quick witted, great dialogue, characters used well.
+10. Roshomon: Classic
+11. Seven Samurai: Classic
+12. Ikiru: Classic
+13. Andrei Rublev: Solid movie. Took me 3 days to watch it. 
+14. Battleship Potemkin: Tough movie to watch. The ending was really captivating
+15. Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles: Really poignant
+16. La Grande Bellezza: One of my fave
+17. Vivek (Reason): Woke me to the Indian left
+18. Paris, Texas: Slow, but interesting character development
 
 I enjoy art. If you enjoy any of these pieces, let me know. I want to know that I am in good company.
 
