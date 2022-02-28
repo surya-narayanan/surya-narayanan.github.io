@@ -1,4 +1,3 @@
-I like movies. Who doesn't..
 
 I will write movies here. If you watch them, message me.
 
@@ -21,12 +20,12 @@ I will write movies here. If you watch them, message me.
 17. Vivek (Reason): Woke me to the Indian left
 18. Paris, Texas: Slow, but interesting character development
 
-I enjoy art. If you enjoy any of these pieces, let me know. I want to know that I am in good company.
+<!-- I enjoy art. If you enjoy any of these pieces, let me know. I want to know that I am in good company.
 
 1. Tapestries the Isabella Stewart Gardner
 2. Windhover at Stanford
 3. Anderson collection (Rothko, drip painting)
-4. Agnes Martin (NY MOMA? long time, dont remember)
+4. Agnes Martin (NY MOMA? long time, dont remember) -->
 
 Music
 1. Jon Higgins' Endharo Mahanubavulu 
@@ -53,3 +52,4 @@ I read books. If you read a book here, message me. Life is better lived in compa
 9. The trial, Kafka
 10. Castiligone, the book of the courtier
 11. Wendell Philips by Bartlett
+12. HUmankind, Farb
