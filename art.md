@@ -10,7 +10,7 @@ I will write movies here. If you watch them, message me.
 7. M: Not my favorite villain till the very end, and a very interesting climax. However, the plot as a whole was a blend of amusement and serious, which I found to be lost to time.
 8. La Cienaga: A slow movie, but one with great promise
 9. Metropolitan: One of my favorites. This genre really appeals to my character- quick witted, great dialogue, characters used well.
-10. Roshomon: Classic
+10. Roshomon: Classic- I dont think I get the appeal entirely. 
 11. Seven Samurai: Classic
 12. Ikiru: Classic
 13. Andrei Rublev: Solid movie. Took me 3 days to watch it. 
@@ -20,6 +20,10 @@ I will write movies here. If you watch them, message me.
 17. Vivek (Reason): Woke me to the Indian left
 18. Paris, Texas: Slow, but interesting character development
 19: 8 1/2: Really good. Slow, deep, thoughtful, meta.
+20. The Piano Teacher: Critics noted it as dark. I agree, but praise the acting and story.
+21. Oldboy- the korean version. Easily one of my favorite movies.
+22. Tokyo Story- havent watched the last 20 mins, but till then, again a favorite
+23. Tampopo- Also one of my favorite movies
 
 <!-- I enjoy art. If you enjoy any of these pieces, let me know. I want to know that I am in good company.
 
@@ -28,7 +32,7 @@ I will write movies here. If you watch them, message me.
 3. Anderson collection (Rothko, drip painting)
 4. Agnes Martin (NY MOMA? long time, dont remember) -->
 
-Music
+<!-- Music
 1. Jon Higgins' Endharo Mahanubavulu 
 > Higgins was so proficient in Carnatic music that he was called Higgins Bhagvathar. When he visited the Udupi Shri Krishna temple, he was denied entry because of his white skin by those who managed the temple. He stood at the gate and sang in chaste Kannada the Vyasatirtha composition, ‘Krishna nee begane baro’ , an action that was similar to Kanaka Dasa's protest in 16th century. He was permitted entry immediately, possibly to avert an 'intervention from the deity', that Kanaka Dasa's legend spoke of.
 
@@ -37,7 +41,7 @@ From his wikipedia page
 2. Ananda Shankar's Jumpin Jack Flash
 3. Salamat Nazakat's Sawal Mor Muhara
 4. Anokha Ladla by Bilqeez Khanum
-5. Imagine by Dr. Dre and Snoop Dogg
+5. Imagine by Dr. Dre and Snoop Dogg -->
 
 
 I read books. If you read a book here, message me. Life is better lived in company.
@@ -53,4 +57,4 @@ I read books. If you read a book here, message me. Life is better lived in compa
 9. The trial, Kafka
 10. Castiligone, the book of the courtier
 11. Wendell Philips by Bartlett
-12. HUmankind, Farb
+12. Humankind, Farb
