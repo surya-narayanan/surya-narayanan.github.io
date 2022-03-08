@@ -30,7 +30,9 @@ Year | Award | Category
 
 Here is a horizontal rule -->
 
+## To do
+Add a [bibbase](https://bibbase.org/start)
 ---
 
-> To a great mind, nothing is little
+> Higgins was so proficient in Carnatic music that he was called Higgins Bhagvathar. When he visited the Udupi Shri Krishna temple, he was denied entry because of his white skin by those who managed the temple. He stood at the gate and sang in chaste Kannada the Vyasatirtha composition, ‘Krishna nee begane baro’ , an action that was similar to Kanaka Dasa's protest in 16th century. He was permitted entry immediately, possibly to avert an 'intervention from the deity', that Kanaka Dasa's legend spoke of.
 

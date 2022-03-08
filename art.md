@@ -1,5 +1,5 @@
 
-I will write movies here. If you watch them, message me.
+I will write movies here. If you watch them, message me if you want to discuss any of them.
 
 1. Children of Paradise part 1, 2: This movie was the first pop movie I had seen in a while. I really enjoyed the character introductions- the people you'd least expect to drive the plot are later revealed to be protagonists. 
 2. (Original Cast Album) Company: What got me into musicals
@@ -24,27 +24,10 @@ I will write movies here. If you watch them, message me.
 21. Oldboy- the korean version. Easily one of my favorite movies.
 22. Tokyo Story- havent watched the last 20 mins, but till then, again a favorite
 23. Tampopo- Also one of my favorite movies
+24. The work- I cried non stop during the movie- easily one of my favorites
+25. Pablo Neruda- Great film 
 
-<!-- I enjoy art. If you enjoy any of these pieces, let me know. I want to know that I am in good company.
-
-1. Tapestries the Isabella Stewart Gardner
-2. Windhover at Stanford
-3. Anderson collection (Rothko, drip painting)
-4. Agnes Martin (NY MOMA? long time, dont remember) -->
-
-<!-- Music
-1. Jon Higgins' Endharo Mahanubavulu 
-> Higgins was so proficient in Carnatic music that he was called Higgins Bhagvathar. When he visited the Udupi Shri Krishna temple, he was denied entry because of his white skin by those who managed the temple. He stood at the gate and sang in chaste Kannada the Vyasatirtha composition, ‘Krishna nee begane baro’ , an action that was similar to Kanaka Dasa's protest in 16th century. He was permitted entry immediately, possibly to avert an 'intervention from the deity', that Kanaka Dasa's legend spoke of.
-
-From his wikipedia page
-
-2. Ananda Shankar's Jumpin Jack Flash
-3. Salamat Nazakat's Sawal Mor Muhara
-4. Anokha Ladla by Bilqeez Khanum
-5. Imagine by Dr. Dre and Snoop Dogg -->
-
-
-I read books. If you read a book here, message me. Life is better lived in company.
+Books
 
 1. Shopgirl
 2. The Road
