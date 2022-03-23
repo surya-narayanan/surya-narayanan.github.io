@@ -1,6 +1,15 @@
 
 I will write movies here. If you watch them, message me if you want to discuss any of them.
 
+<!-- Here is a table
+
+Year | Award | Category
+-----|-------|--------
+2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
+2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
+2014 | Satellite | Won Best Actor miniseries or television film
+-->
+
 1. Children of Paradise part 1, 2: This movie was the first pop movie I had seen in a while. I really enjoyed the character introductions- the people you'd least expect to drive the plot are later revealed to be protagonists. 
 2. (Original Cast Album) Company: What got me into musicals
 3. Hoop Dreams: I watched this movie over two days. So revelatory. Following the cast today, makes me realize how poignant this story is.
