@@ -35,6 +35,7 @@ Year | Award | Category
 23. Tampopo- Also one of my favorite movies
 24. The work- I cried non stop during the movie- easily one of my favorites
 25. Pablo Neruda- Great film 
+26. Dr. Strangelove- watched it on a plane, dunno if it was edited from its original. Thought it ran a bit short.
 
 Books
 
