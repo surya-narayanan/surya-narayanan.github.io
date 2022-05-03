@@ -28,7 +28,7 @@ Year | Award | Category
 16. La Grande Bellezza: One of my faves
 17. Vivek (Reason): Woke me to the Indian left
 18. Paris, Texas: Slow, but interesting character development
-19: 8 1/2: Really good. Slow, deep, thoughtful, meta.
+19. 8 1/2: Really good. Slow, deep, thoughtful, meta.
 20. The Piano Teacher: Critics noted it as dark. I agree, but praise the acting and story.
 21. Oldboy- the korean version. Easily one of my favorite movies.
 <!-- 22. Tokyo Story- havent watched the last 20 mins, but till then, again a favorite -->
@@ -37,7 +37,6 @@ Year | Award | Category
 25. Pablo Neruda- Great film 
 26. Dr. Strangelove- watched it on a plane, dunno if it was edited from its original. Thought it ran a bit short.
 27. Anthropocene
-28. 
 
 Books
 
