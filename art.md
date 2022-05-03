@@ -37,6 +37,8 @@ Year | Award | Category
 25. Pablo Neruda- Great film 
 26. Dr. Strangelove- watched it on a plane, dunno if it was edited from its original. Thought it ran a bit short.
 27. Anthropocene
+28. Washington (2006 I think)- Not one I enjoyed very much
+
 
 Books
 
