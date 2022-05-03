@@ -1,5 +1,5 @@
 
-I will write movies here. If you watch them, message me if you want to discuss any of them.
+I will write movies I don't think are well known here. If you watch them, message me if you want to discuss any of them.
 
 <!-- Here is a table
 
@@ -19,28 +19,31 @@ Year | Award | Category
 7. M: Not my favorite villain till the very end, and a very interesting climax. However, the plot as a whole was a blend of amusement and serious, which I found to be lost to time.
 8. La Cienaga: A slow movie, but one with great promise
 9. Metropolitan: One of my favorites. This genre really appeals to my character- quick witted, great dialogue, characters used well.
-10. Roshomon: Classic- I dont think I get the appeal entirely. 
-11. Seven Samurai: Classic
-12. Ikiru: Classic
+<!-- 10. Roshomon: Classic- I dont think I get the appeal entirely.  -->
+<!-- 11. Seven Samurai: Classic -->
+<!-- 12. Ikiru: Classic -->
 13. Andrei Rublev: Solid movie. Took me 3 days to watch it. 
 14. Battleship Potemkin: Tough movie to watch. The ending was really captivating
-15. Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles: Really poignant
-16. La Grande Bellezza: One of my fave
+<!-- 15. Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles: Really poignant -->
+16. La Grande Bellezza: One of my faves
 17. Vivek (Reason): Woke me to the Indian left
 18. Paris, Texas: Slow, but interesting character development
 19: 8 1/2: Really good. Slow, deep, thoughtful, meta.
 20. The Piano Teacher: Critics noted it as dark. I agree, but praise the acting and story.
 21. Oldboy- the korean version. Easily one of my favorite movies.
-22. Tokyo Story- havent watched the last 20 mins, but till then, again a favorite
+<!-- 22. Tokyo Story- havent watched the last 20 mins, but till then, again a favorite -->
 23. Tampopo- Also one of my favorite movies
 24. The work- I cried non stop during the movie- easily one of my favorites
 25. Pablo Neruda- Great film 
 26. Dr. Strangelove- watched it on a plane, dunno if it was edited from its original. Thought it ran a bit short.
+27. Anthropocene
+28. 
 
 Books
 
 1. Shopgirl
-2. The Road
+2. Castiligone, the book of the courtier
+<!-- 2. The Road
 3. Underground Railroad
 4. Nine Stories by Salinger
 5. War and Peace
@@ -50,4 +53,4 @@ Books
 9. The trial, Kafka
 10. Castiligone, the book of the courtier
 11. Wendell Philips by Bartlett
-12. Humankind, Farb
+12. Humankind, Farb -->
