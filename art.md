@@ -10,7 +10,7 @@ Year | Award | Category
 2014 | Satellite | Won Best Actor miniseries or television film
 -->
 
-1. Children of Paradise part 1, 2: This movie was the first pop movie I had seen in a while. I really enjoyed the character introductions- the people you'd least expect to drive the plot are later revealed to be protagonists. 
+1. Children of Paradise part 1, 2: This movie was the first pop movie I had seen in a while. I really enjoyed the character introductions- the people you'd least expect to drive the plot are later revealed to be protagonists.  
 2. (Original Cast Album) Company: What got me into musicals
 3. Hoop Dreams: I watched this movie over two days. So revelatory. Following the cast today, makes me realize how poignant this story is.
 4. Old Joy: A really calm movie- not one I expected to really like. 
