@@ -38,7 +38,7 @@ Year | Award | Category
 26. Dr. Strangelove- watched it on a plane, dunno if it was edited from its original. Thought it ran a bit short.
 27. Anthropocene
 28. Washington (2006 I think)- Not one I enjoyed very much
-
+29. The handmaiden (Korean): Nice film, nice plot twist. Nice cinematography, memorable acting. Thought some of the supporting cast could have been worked in.
 
 Books
 
