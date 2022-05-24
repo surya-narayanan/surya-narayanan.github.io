@@ -26,5 +26,5 @@ nav:
 #    link: "recipes"
  - name: "Art"
    link: "art"
-#  - name: "Blog"
-#    link: "blog"
+ - name: "Blog"
+   link: "blog"
