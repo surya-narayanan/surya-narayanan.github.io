@@ -43,6 +43,7 @@ Year | Award | Category
 31. Tiny: The story of Erin Blackwell: Made me realize (like Washington) that the American poor are really in a terrible place. Income inequality really makes me feel worse about my capitalist leanings
 32. Portrait of a Lady on Fire: Didn't like it too too much, thought the set direction and camera work were amazing. The story seemed to be well paced in the first hour and a bit, and the relationship rushed. 
 33. Darjeeling limited: Thought there were some moments of stillness that were unintentionally uncomfortable. The prequel had its moments of subtle tension, but a dragged ending if I remember correctly. The choice of music was highly regarded.
+34. 
 
 
 Books
