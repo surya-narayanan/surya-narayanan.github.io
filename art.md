@@ -43,7 +43,9 @@ Year | Award | Category
 31. Tiny: The story of Erin Blackwell: Made me realize (like Washington) that the American poor are really in a terrible place. Income inequality really makes me feel worse about my capitalist leanings
 32. Portrait of a Lady on Fire: Didn't like it too too much, thought the set direction and camera work were amazing. The story seemed to be well paced in the first hour and a bit, and the relationship rushed. 
 33. Darjeeling limited: Thought there were some moments of stillness that were unintentionally uncomfortable. The prequel had its moments of subtle tension, but a dragged ending if I remember correctly. The choice of music was highly regarded.
-34. 
+34. La Strada: The movie is not about the protagonist's perspective, but the world around her. I found the role of the protagonist to be a fly on the wall. 
+35. Mouchette: Very similar to La Strada, but a bit more involved. 
+
 
 
 Books
@@ -61,3 +63,7 @@ Books
 10. Castiligone, the book of the courtier
 11. Wendell Philips by Bartlett
 12. Humankind, Farb
+
+Websites
+1. [LJ Wolf](https://www.ljwolf.org/posts/)
+2. [Satyan Devadoss](https://satyandevadoss.org/writing). Really loved the few minutes of his talk that I watched, and his burning man exhibit. 
