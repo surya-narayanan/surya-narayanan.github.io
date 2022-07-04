@@ -45,7 +45,7 @@ Year | Award | Category
 33. Darjeeling limited: Thought there were some moments of stillness that were unintentionally uncomfortable. The prequel had its moments of subtle tension, but a dragged ending if I remember correctly. The choice of music was highly regarded.
 34. La Strada: The movie is not about the protagonist's perspective, but the world around her. I found the role of the protagonist to be a fly on the wall. 
 35. Mouchette: Very similar to La Strada, but a bit more involved. 
-
+36. The red shoes: Another one similar in presentation to children of paradise. I really liked the performances, not a dull moment in the film. No villain, which I found nice. I thought the ending was weak but I personally dont like tragedies. Again, if there's no rabbit in the hat, you can't pull a rabbit out of the hat. 
 
 
 Books
@@ -63,6 +63,8 @@ Books
 10. Castiligone, the book of the courtier
 11. Wendell Philips by Bartlett
 12. Humankind, Farb
+13. Prophet, Gibran
+14. Mans search for meaning, Frankl
 
 Websites
 1. [LJ Wolf](https://www.ljwolf.org/posts/)
