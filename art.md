@@ -64,7 +64,7 @@ Books
 11. Wendell Philips by Bartlett
 12. Humankind, Farb
 13. Prophet, Gibran
-14. Mans search for meaning, Frankl
+14. Mans search for meaning, Frankl: 
 
 Websites
 1. [LJ Wolf](https://www.ljwolf.org/posts/)
