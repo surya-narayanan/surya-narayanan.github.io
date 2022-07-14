@@ -46,6 +46,9 @@ Year | Award | Category
 34. La Strada: The movie is not about the protagonist's perspective, but the world around her. I found the role of the protagonist to be a fly on the wall. 
 35. Mouchette: Very similar to La Strada, but a bit more involved. 
 36. The red shoes: Another one similar in presentation to children of paradise. I really liked the performances, not a dull moment in the film. No villain, which I found nice. I thought the ending was weak but I personally dont like tragedies. Again, if there's no rabbit in the hat, you can't pull a rabbit out of the hat. 
+37. Makala
+38. The Love Godesses
+39. Becoming a spy
 
 
 Books
@@ -69,3 +72,6 @@ Books
 Websites
 1. [LJ Wolf](https://www.ljwolf.org/posts/)
 2. [Satyan Devadoss](https://satyandevadoss.org/writing). Really loved the few minutes of his talk that I watched, and his burning man exhibit. 
+
+Wikipedia roulette
+[1](https://en.wikipedia.org/wiki/Freedom_pineapples)
