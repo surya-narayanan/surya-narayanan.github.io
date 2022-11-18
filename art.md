@@ -49,6 +49,8 @@ Year | Award | Category
 37. Makala
 38. The Love Godesses
 39. Becoming a spy
+40. Tenet
+41. Bullet Train
 
 
 Books
@@ -68,10 +70,20 @@ Books
 12. Humankind, Farb
 13. Prophet, Gibran
 14. Mans search for meaning, Frankl: 
+15. Business Sutra
+16. Becoming Indian
+17. Brave new world
+18. 
 
 Websites
 1. [LJ Wolf](https://www.ljwolf.org/posts/)
 2. [Satyan Devadoss](https://satyandevadoss.org/writing). Really loved the few minutes of his talk that I watched, and his burning man exhibit. 
+3. [Salvador Buse](https://www.salvadorbuse.com/favourites/)
+4. [Gwern](https://www.gwern.net/)
 
 Wikipedia roulette
 [1](https://en.wikipedia.org/wiki/Freedom_pineapples)
+
+Things I want to smash under liquid nitrogen
+1. Smashed potatoes
+2. Brain tissue
