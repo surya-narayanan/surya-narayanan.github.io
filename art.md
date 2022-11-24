@@ -47,10 +47,11 @@ Year | Award | Category
 35. Mouchette: Very similar to La Strada, but a bit more involved. 
 36. The red shoes: Another one similar in presentation to children of paradise. I really liked the performances, not a dull moment in the film. No villain, which I found nice. I thought the ending was weak but I personally dont like tragedies. Again, if there's no rabbit in the hat, you can't pull a rabbit out of the hat. 
 37. Makala
-38. The Love Godesses
+38. The Love Godesses 
 39. Becoming a spy
-40. Tenet
-41. Bullet Train
+40. Tenet: What a confusing movie. Really didn't understand wtf was going on.
+41. Bullet Train: More than the movie, the experienceo fo watching it at the Alamo drafthouse really made the experience worthwhile for me. 
+42. The headless woman: Another art house movie I failed to understand. My stupidity amazes me, even when it shouldn't. Slow, complex and subtle, it forces me to ask questions at the speed of F1 that my Indycar 500 brain can't drive at. 
 
 
 Books
