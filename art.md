@@ -58,6 +58,17 @@ To watch:
 1. Buena Vista Social Club
 2. Once upon a time in Hollywood
 3. Jeans
+4. Charles Manson's 1987 interview (emmy winning)
+
+TV shows
+
+1. Drive to survive
+
+To watch:
+1. 1899
+2. Sex education
+3. The Good Place
+
 
 Books
 
@@ -89,6 +100,7 @@ Websites
 2. [Satyan Devadoss](https://satyandevadoss.org/writing). Really loved the few minutes of his talk that I watched, and his burning man exhibit. 
 3. [Salvador Buse](https://www.salvadorbuse.com/favourites/)
 4. [Gwern](https://www.gwern.net/)
+5. [Lewis Tunstall](https://lewtun.github.io/blog/about/)
 
 Wikipedia roulette
 [1](https://en.wikipedia.org/wiki/Freedom_pineapples)
