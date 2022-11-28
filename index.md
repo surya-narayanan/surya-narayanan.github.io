@@ -6,7 +6,7 @@ layout: default
 
 <!-- <img class="profile-picture" src="sherlock.jpg"> -->
 
-Hi! My name is Surya Narayanan. I grew up in Mumbai, India. I graduated from Stanford University and am a cancer researcher at the Dana Farber. 
+Hi! My name is Surya Narayanan. I grew up in Mumbai, India. I am in the PhD program at Caltech. My alma mater is Stanford University. I worked at Dana Farber under the strict supervision of Eli Van Allen prior to my current role. 
 
 ## Publications
  
