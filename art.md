@@ -53,28 +53,36 @@ Year | Award | Category
 41. Bullet Train: More than the movie, the experienceo fo watching it at the Alamo drafthouse really made the experience worthwhile for me. 
 42. The headless woman: Another art house movie I failed to understand. My stupidity amazes me, even when it shouldn't. Slow, complex and subtle, it forces me to ask questions at the speed of F1 that my Indycar 500 brain can't drive at. 
 
+To watch: 
+
+1. Buena Vista Social Club
+2. Once upon a time in Hollywood
+3. Jeans
 
 Books
 
-1. Shopgirl
-2. Castiligone, the book of the courtier
-2. The Road
-3. Underground Railroad
-4. Nine Stories by Salinger
-5. War and Peace
-6. In Search of Lost Time
-7. The Yellow Wallpaper
-8. Kafka by the Shore
-9. The trial, Kafka
-10. Castiligone, the book of the courtier
-11. Wendell Philips by Bartlett
-12. Humankind, Farb
-13. Prophet, Gibran
-14. Mans search for meaning, Frankl: 
-15. Business Sutra
-16. Becoming Indian
-17. Brave new world
-18. 
+1. Shopgirl: probably one of my favorite books. Easily defining myself as a character.
+3. Underground Railroad: Interesting book. Well written.
+4. Nine Stories by Salinger: Fascinating. 
+5. War and Peace: Easily a most addicting book.
+6. In Search of Lost Time: Only one book in. Makes me love my mother more. 
+7. The Yellow Wallpaper: Memories of my reading this in the 10th grade.
+8. Kafka by the Shore: A most fascinating read. 
+9. The trial, Kafka: Easily a most interesting book. Absurdism to the finest.
+10. Castiligone, the book of the courtier: A most fascinating book. Made me, as a bit more flippant, but more agreeable. 
+11. Wendell Philips by Bartlett: A most curious tale. Made me more curious about 1800s america
+13. Prophet, Gibran: Probably my bible.
+14. Mans search for meaning, Frankl: A most interesting book. The tryst with uncertainity is truly my nemesis
+15. Business Sutra: Seemingly flippant, but under the surface, some useful skills.
+16. Becoming Indian: A tough read. Really decolonizing myself. 
+17. Brave new world: A most fascinating idea of a world. A world I would love to live in, of course, conditions applying.
+18. Here, there and everywhere: A book with touching moments, really tells about the moments that make a leader one worth remembering. 
+
+To read
+
+1. Maximum City
+2. The Wish Maker: Amit sethi
+3. Once Upon a Time in Hollywood: Quentin Tarrantino
 
 Websites
 1. [LJ Wolf](https://www.ljwolf.org/posts/)
@@ -88,3 +96,4 @@ Wikipedia roulette
 Things I want to smash under liquid nitrogen
 1. Smashed potatoes
 2. Brain tissue
+
