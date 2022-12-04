@@ -1,5 +1,5 @@
-
-I will write movies I don't think are well known here. If you watch them, message me if you want to discuss any of them.
+Role models
+1. Frederick Sanger, winner of 2 Nobels. From Wikipedia, 'As noted in his obituary, he had described himself as "just a chap who messed about in a lab", and "academically not brilliant".'
 
 <!-- Here is a table
 
@@ -9,6 +9,8 @@ Year | Award | Category
 2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
 2014 | Satellite | Won Best Actor miniseries or television film
 -->
+
+Movies
 
 1. Children of Paradise part 1, 2: This movie was the first pop movie I had seen in a while. I really enjoyed the character introductions- the people you'd least expect to drive the plot are later revealed to be protagonists.  
 2. (Original Cast Album) Company: What got me into musicals
@@ -94,6 +96,7 @@ To read
 1. Maximum City
 2. The Wish Maker: Amit sethi
 3. Once Upon a Time in Hollywood: Quentin Tarrantino
+4. The Pittsburgh Cycle
 
 Websites
 1. [LJ Wolf](https://www.ljwolf.org/posts/)
