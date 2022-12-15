@@ -1,5 +1,8 @@
 Role models
 1. Frederick Sanger, winner of 2 Nobels. From Wikipedia, 'As noted in his obituary, he had described himself as "just a chap who messed about in a lab", and "academically not brilliant".'
+2. “Reyna's high level of play has earned him the nickname "The American Dream" by former teammate Erling Haaland.”
+3. Regarded as one of the best players never to have played at the World Cup, Scott Murray in The Guardian refers to Weah as "hamstrung by hailing from a global minnow".
+4. Vince Lombardi: "Among professional football head coaches, in the midst of the civil rights movement, Lombardi's anti-discrimination views were unusual"
 
 <!-- Here is a table
 
@@ -54,13 +57,15 @@ Movies
 40. Tenet: What a confusing movie. Really didn't understand wtf was going on.
 41. Bullet Train: More than the movie, the experienceo fo watching it at the Alamo drafthouse really made the experience worthwhile for me. 
 42. The headless woman: Another art house movie I failed to understand. My stupidity amazes me, even when it shouldn't. Slow, complex and subtle, it forces me to ask questions at the speed of F1 that my Indycar 500 brain can't drive at. 
+43. Kantara- surprisingly good. It feels like the entire world is running on a tik tok attention span and this movie captures the intensity of every moment in that way. 
 
 To watch: 
 
 1. Buena Vista Social Club
 2. Once upon a time in Hollywood
 4. Charles Manson's 1987 interview (emmy winning)
-5. Kantara
+5. 
+6. The End of the Tour 
 
 TV shows
 
@@ -70,6 +75,7 @@ To watch:
 1. 1899
 2. Sex education
 3. The Good Place
+4. Secrets of Playboy
 
 
 Books
@@ -97,6 +103,10 @@ To read
 2. The Wish Maker: Amit sethi
 3. Once Upon a Time in Hollywood: Quentin Tarrantino
 4. The Pittsburgh Cycle
+5. Sustainable Energy – Without the Hot Air.
+6. Infinite Jest
+7. Although of Course You End Up Becoming Yourself: A Road Trip with David Foster Wallace
+8. Phenomenon of Life: Maria Telkes
 
 Websites
 1. [LJ Wolf](https://www.ljwolf.org/posts/)
@@ -111,4 +121,13 @@ Wikipedia roulette
 Things I want to smash under liquid nitrogen
 1. Smashed potatoes
 2. Brain tissue
+3. a soda can
 
+
+savage SO / github
+1. https://datascience.stackexchange.com/questions/34382/can-cosine-similarity-be-applied-to-multidimensional-matrices
+
+
+Shopping list
+1. Newtons cradle
+2. 
