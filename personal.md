@@ -8,7 +8,7 @@ Role models
 7. "Their advisors were not interested in the experiment when Huberman and Riggs proposed it, and the students continued the work on their own. Using their method, they were able to measure the rate of DNA replication. The results indicated that chromosomal DNA contained many sections, which replicated independently, and that replication occurred in both directions at each section's origin. The results were important and helped to extend scientists' understanding of mammalian DNA replication. Herschel Mitchell and Giuseppe Attardi, their advisors, felt that the papers should be published under Huberman and Riggs' names, without their advisors', because they had done the work independently" [Arthur Riggs (geneticist)](https://en.wikipedia.org/wiki/Arthur_Riggs_(geneticist))
 
 [Movies](books.md)
-
+ 
 [TV shows](tv.md)
 
 [Books](books.md)
