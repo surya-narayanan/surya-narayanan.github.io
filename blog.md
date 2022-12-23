@@ -1,11 +1,3 @@
-<!-- 6. The fox apologist to the tree and took its fruits about 8 or 10 times. the tree asks why you spologist  -->
-
-
-<!-- 8. People ask me what my hobbies are: I take the time to catalog old photos from my family on facebook, spend ambl -->
-
-<!-- 8. An old sailor was narrating a story to children. He told them the story of Howie and Hughs, two men who were best friends but whose friendship ceased.  -->
-
-<!-- 7. An industrialist criticizing the government should not make the headlines: Naushad Forbes.  -->
 
 10. My mortality hit me when I was on the train. I was calculating a 7 month old dogs age when I remembered the adage to multiply the dogs age by 7 to get their human age. Wondering about why the human age dog age calculus arose I thought to the conversion of how much of a dogs life is lived in 8 months. Similarly, I thought how much of my life I have lived and how much more I had to live. Was it 10, 20 or 30 years. I thought to what I would do with all that time and whether I would do everything I wanted in that time. 
 
