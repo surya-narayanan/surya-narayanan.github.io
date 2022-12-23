@@ -15,6 +15,12 @@ Role models
 
 [Websites](websites.md)
 
+[Wishlist](wishlist.md)
+
+[Recipes](recipes.md)
+
+[Blog](blog.md)
+
 Wikipedia roulette
 [1](https://en.wikipedia.org/wiki/Freedom_pineapples) [2] (https://en.wikipedia.org/wiki/Jefferson_Davis)
 
@@ -30,14 +36,11 @@ savage SO / github
 
 Shopping list
 1. Newtons cradle
-2. Orange picekr
 
 Restaurants to visit 
 
 1. [Javiers](https://www.javiers-cantina.com/newport-beach#menu=vegetarian-and-vegan)
 
-
-Blog (These are old posts. I write now at [Substack](https://suryanarayananhari.substack.com/))
 
 <!-- 6. The fox apologist to the tree and took its fruits about 8 or 10 times. the tree asks why you spologist  -->
 
