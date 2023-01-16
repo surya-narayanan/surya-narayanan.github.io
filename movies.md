@@ -44,6 +44,9 @@
 44. Big lebowski. His scene in bed smoking a joint with a tweezer is still fresh in my mind
 45. Killing of a Chinese Bookie- Grim, so far. "It takes work to be comfortable. But the only people that are happy, are the people that are comfortable". "I'm only happy when I can be what people want me to be rather than be myself."
 46. Salt in my soul- it was emotional seeing her facebook and that i share so many mutual friends with her. Ultimatley, inspiring. 
+47. Knives out (its on netflix)- a bit too quick, could have taken its time
+48. Playtime- A real masterpiece, the large scale shots are really something. 
+49. Feels good man - a real reminder that the internet is made of real people. 
 
 To watch: 
 
@@ -55,4 +58,8 @@ To watch:
 7. Opening Night (1977)
 8. Anatomy of a murder
 9. Haxan
+10. In Which Annie Gives It Those Ones
+11. Drowned out
+12. Amelie
+
 

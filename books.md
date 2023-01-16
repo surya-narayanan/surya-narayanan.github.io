@@ -14,6 +14,9 @@
 16. Becoming Indian: A tough read. Really decolonizing myself. 
 17. Brave new world: A most fascinating idea of a world. A world I would love to live in, of course, conditions applying.
 18. Here, there and everywhere: A book with touching moments, really tells about the moments that make a leader one worth remembering. 
+19. God of small things- started off as one of my fav books. Slowed down
+20. The consolations of philosophy
+21: 
 
 To read
 
@@ -27,3 +30,6 @@ To read
 8. Phenomenon of Life: Maria Telkes
 9. Hillbilly Elegy
 10. Shantaram
+11. 1984
+12. 1Q84
+13. Spirals by William Patrick, 1983
