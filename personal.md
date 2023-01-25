@@ -12,14 +12,25 @@
 
 [Blog](blog.md)
 
-Role models
+Gift ideas for mom:
+1. Deep Fryer
+
+Goals in life
+1. To start a restaurant where patrons can eat only once in their lifetime
+2. To start a revolutionary political party
+3. To be a pathbreaking scientist
+4. Publish a novel with the same timelessness as art of war
+5. Extend my mother's lifespan.
+
+Inspiring internet memes
 1. Frederick Sanger, winner of 2 Nobels. From Wikipedia, 'As noted in his obituary, he had described himself as "just a chap who messed about in a lab", and "academically not brilliant".'
 2. “Reyna's high level of play has earned him the nickname "The American Dream" by former teammate Erling Haaland.”
 3. Regarded as one of the best players never to have played at the World Cup, Scott Murray in The Guardian refers to Weah as "hamstrung by hailing from a global minnow".
 4. Vince Lombardi: "Among professional football head coaches, in the midst of the civil rights movement, Lombardi's anti-discrimination views were unusual"
 5. "a Hill-Billie is a free and untrammeled white citizen of Alabama, who lives in the hills, has no means to speak of, dresses as he can, talks as he pleases, drinks whiskey when he gets it, and fires off his revolver as the fancy takes him" (Taken from the definiotion of hillbilly on wikipedia)
-6. "Critics believe that several of his most popular songs are closely based on popular songs from other countries" [liink](https://en.wikipedia.org/wiki/Rajesh_Roshan)
+6. "Critics believe that several of his most popular songs are closely based on popular songs from other countries" [link](https://en.wikipedia.org/wiki/Rajesh_Roshan)
 7. "Their advisors were not interested in the experiment when Huberman and Riggs proposed it, and the students continued the work on their own. Using their method, they were able to measure the rate of DNA replication. The results indicated that chromosomal DNA contained many sections, which replicated independently, and that replication occurred in both directions at each section's origin. The results were important and helped to extend scientists' understanding of mammalian DNA replication. Herschel Mitchell and Giuseppe Attardi, their advisors, felt that the papers should be published under Huberman and Riggs' names, without their advisors', because they had done the work independently" [Arthur Riggs (geneticist)](https://en.wikipedia.org/wiki/Arthur_Riggs_(geneticist))
+8. In an interview at Caltech, Benzer also remembered receiving a microscope for his 13th birthday, “and that opened up the whole world. [His wiki page]
 
 
 Articles 

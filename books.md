@@ -32,4 +32,7 @@ To read
 10. Shantaram
 11. 1984
 12. 1Q84
-13. Spirals by William Patrick, 1983
+13. Spirals by William Patrick, 19831
+14.  Time, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior by Pulitzer laureate Jonathan Weiner
+15. Erwin Schrödinger in his 1944 book What Is Life?
+16. Cricket by W.G. Grace
