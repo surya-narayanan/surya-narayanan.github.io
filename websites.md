@@ -4,3 +4,5 @@
 3. [Salvador Buse](https://www.salvadorbuse.com/favourites/)
 4. [Gwern](https://www.gwern.net/)
 5. [Lewis Tunstall](https://lewtun.github.io/blog/about/)
+6. [Jake Tae](https://jaketae.github.io/)
+7. [Interactive math textbook](https://textbooks.math.gatech.edu/ila/index.html)

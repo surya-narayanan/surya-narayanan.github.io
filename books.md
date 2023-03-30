@@ -36,3 +36,7 @@ To read
 14.  Time, Love, Memory: A Great Biologist and His Quest for the Origins of Behavior by Pulitzer laureate Jonathan Weiner
 15. Erwin Schrödinger in his 1944 book What Is Life?
 16. Cricket by W.G. Grace
+17. Ronnie, the autobiography of Ronnie O Sullivan
+18. Galileo Galilei, The Assayer
+19. tomorrow tomorrow tomorrow
+20. theoretical ecology concepts and applications
