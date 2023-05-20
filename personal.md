@@ -44,6 +44,16 @@ Inspiring internet memes
 Then the little man with his long hair and Emersonian face edged his way past us and took his seat. I could have touched him with my hand—Mommsen!—think of it! ... I would have walked a great many miles to get a sight of him, and here he was, without trouble or tramp or cost of any kind. Here he was clothed in a titanic deceptive modesty which made him look like other men.[26] - Theodor Mommsen
 
 11. F.A.B.'s community activism and philanthropic efforts have been highly visible throughout the years. Most notably, he hosts and organizes annual Thanksgiving turkey giveaways, backpack and school supply drives, holiday toys event and various charitable events benefiting Cancer and Domestic Violence. In August 2013, Mistah F.A.B. was named one of "10 Great Rappers With Great Charities" by Green Label a Mountain Dew Venture.[12] In 2014, Mistah F.A.B. was recognized by Oakland Mayor Jean Quan, who declared Saturday, February 8, 2014 "Stanley Cox aka Mistah F.A.B. Day" in recognition of the multi-talented hometown hero's efforts to give back to the community.[13] (source)[https://en.wikipedia.org/wiki/Mistah_F.A.B.]
+12. Mohammed Siraj (born 13 March 1994) is an Indian international cricketer who plays for the Indian national cricket team as a Right-arm fast medium bowler. He plays for Royal Challengers Bangalore in the Indian Premier League and Hyderabad in domestic cricket. As of April 2023, Siraj is currently ranked World No. 3 in the ICC men's ODI bowlers rankings.
+13. Baker takes a little milk and sugar with some of the coffee, then drinks a few dozen straight for variety.
+
+
+
+Early life
+Siraj was born on 13 March 1994 in Hyderabad. His father was an Auto-rickshaw driver, and his mother worked in other people's houses.[4]
+
+(source)[https://en.wikipedia.org/wiki/Mohammed_Siraj]
+
 
 
 
