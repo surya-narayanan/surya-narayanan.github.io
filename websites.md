@@ -6,3 +6,5 @@
 5. [Lewis Tunstall](https://lewtun.github.io/blog/about/)
 6. [Jake Tae](https://jaketae.github.io/)
 7. [Interactive math textbook](https://textbooks.math.gatech.edu/ila/index.html)
+8. [Jason Wei](https://www.jasonwei.net/)
+9. [Amelia Wattenberger](https://wattenberger.com/)
