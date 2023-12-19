@@ -24,6 +24,7 @@ Things to do in LA
 4. [Bridge_Thrift] (https://maps.app.goo.gl/p3gyXm9h2xvuaUkK8?g_st=i)
 5. [It's_A_Wrap_Production] (https://maps.app.goo.gl/Pa6R76omMC8vE4MNA?g_st=i)
 6. [The_Grove] (https://maps.app.goo.gl/e9E2SgZjucPoK9pb9?g_st=i)
+7. [Niche Musems](https://www.niche-museums.com/)
 
 
 Things to do 

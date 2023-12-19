@@ -47,6 +47,7 @@
 47. Knives out (its on netflix)- a bit too quick, could have taken its time
 48. Playtime- A real masterpiece, the large scale shots are really something. 
 49. Feels good man - a real reminder that the internet is made of real people. 
+50. Subramanipuram - probably one of my favorite gangster movies of all time. 
 
 To watch: 
 
