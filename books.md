@@ -42,3 +42,7 @@ To read
 20. theoretical ecology concepts and applications
 21. Salt, sugar, fat : how the food giants hooked us
 22. A New Kind of Science
+23. A Prince of Our Disorder
+24. Philosophical Thoughts by Diederot
+25. Hell's Angels: The Strange and Terrible Saga of the Outlaw Motorcycle Gangs
+26. The Kentucky Derby Is Decadent and Depraved
