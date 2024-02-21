@@ -46,3 +46,4 @@ To read
 24. Philosophical Thoughts by Diederot
 25. Hell's Angels: The Strange and Terrible Saga of the Outlaw Motorcycle Gangs
 26. The Kentucky Derby Is Decadent and Depraved
+27. The Gulag Archipelago
