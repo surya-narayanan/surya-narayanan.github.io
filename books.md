@@ -47,3 +47,5 @@ To read
 25. Hell's Angels: The Strange and Terrible Saga of the Outlaw Motorcycle Gangs
 26. The Kentucky Derby Is Decadent and Depraved
 27. The Gulag Archipelago
+28. Guns, Germs, and Steel: The Fates of Human Societies
+29. Oration on the Dignity of Man
