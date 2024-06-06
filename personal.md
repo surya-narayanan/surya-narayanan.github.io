@@ -53,7 +53,9 @@ savage SO / github
 4. [4](https://discussions.apple.com/thread/8450226)
 
 Shopping list
-1. Newtons cradle
+1. Davey Barstools 1 bite t shirt
+2. The Dialectic of Sex and Airless Spaces
+3. Vinyl player
 
 Restaurants to visit 
 1. [Javiers](https://www.javiers-cantina.com/newport-beach#menu=vegetarian-and-vegan)
