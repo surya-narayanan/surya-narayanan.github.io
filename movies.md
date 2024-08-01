@@ -53,6 +53,8 @@
 53. The Graduate
 54. Some like it hot
 55. Sunset Boulevard
+56. Punch Drunk Love - a moronic movie where a woman hits on a hodgepodge man with the brain of a 13 y o which is not worth watching until the final 20 mins. 
+57. Sophie's Choice - really difficult watch. - interestingly enough, it was very difficult for me to recall this movie. I googled the plot on gpt and google like 20 times ( a southern writer moves into an apartment and starts a love triangle with a couple who are in an abusive relationship) and got no hits. I remembered a key scene from the movie as well, where the three are drinkign coffee and heaping spoonfulls of cream into their cup from a tray of cream on a hot summer day. No luck finding the movie. Then, the thing that worked for me was to remember that it had a famous actress that won an award for the movie. The thing was, was that the movie was shot in the 80s, and there are many famous actredsses from the 20th century. Luckily, searching for famous actresses from the 80s, produced Meryl Streep and looking at her movies, I could identify the one because I knew the name had a word structure like "(Proper noun+posessive modifier) (common noun)" so something like Orpheia's love. The movie was called Sophie's choice. 
 
 To watch: 
 
