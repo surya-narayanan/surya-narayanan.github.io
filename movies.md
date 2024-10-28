@@ -58,6 +58,11 @@
 58. Anatomy of a fall: I really enjoyed the acting, until the climax where I felt the countroom drama was rushed by a child's confession and I wasn't sure if anything else before it mattered. 
 59. Umbrellas of Cherbourg: I thought that Geneviève's character was intended to portray one who wasn't acting out of jealousy or malintent. However, Guy's refusal to see his child with her, made me think maybe he resented her for her decision, which left me with a bitter taste in my mouth. I felt as if he wasn't content with his decision to forget Geneviève, and that she had to suffer his decision.
 60. Kwaidan: The story with the biwa easily one of my favorite short films of all time. easily could watch over and over. mesmerizing and put me in a trance. While I would have ended the story differently, irrelevant. 
+61. The great dictator - I thought it was really brave that somebody would make this movie. In the first scene itself when chaplin is giving the speech, I could tell that he was mocking real footage of Hitler by the way his eyes looked up as though he was trying to remember something. 
+62. Company - I have many thoughts about the 2011 filming of the play shot with the New York Philharmonic. It was very clear to me that the person who wrote the book was likely gay - the views on marriage (all heterosexual) were very cynical - it seems the protagonist views his married friends as crazy, stupid, almost unenlightened. He seems to largely only care about their opinions of him. The reactions the protagonist had about things like one of his 'friends' wanting to have an affair with him, one of his frinds asking him to have a homosexual relation with him, and I certainly would not be friends with someone who proposed to my wife on the day of our marriage. I find it to be a ludicrous mockery of metropolitan friendships - in a fast paced world where we're simply acommpaniments to other individuals as opposed to friends. 
+63. Anora - 
+64. Triangle of sadness - 
+
 
 To watch: 
 
