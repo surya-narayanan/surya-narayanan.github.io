@@ -19,8 +19,12 @@ Then the little man with his long hair and Emersonian face edged his way past us
 12. Mohammed Siraj (born 13 March 1994) is an Indian international cricketer who plays for the Indian national cricket team as a Right-arm fast medium bowler. He plays for Royal Challengers Bangalore in the Indian Premier League and Hyderabad in domestic cricket. As of April 2023, Siraj is currently ranked World No. 3 in the ICC men's ODI bowlers rankings. Siraj was born on 13 March 1994 in Hyderabad. His father was an Auto-rickshaw driver, and his mother worked in other people's houses.[4]
 13. Baker takes a little milk and sugar with some of the coffee, then drinks a few dozen straight for variety.
 
-(source)[https://en.wikipedia.org/wiki/Mohammed_Siraj]
+[source](https://en.wikipedia.org/wiki/Mohammed_Siraj)
 
 14.Mella Thirandhathu Kadhavu was released on 12 September 1986.[12] Jayamanmadhan of Kalki criticised the film for feeling like two distinct stories divided by an interval.[13] The film initially opened to average response but later picked up in coming weeks.[14][5] When the film was released in Cinepriya Theatre, Madurai, a distributor released the film by reversing the two-halves of the film which enjoyed positive reception.[15] Later all over Tamil Nadu the film was filmed by changing the two-halves of the film which shows Amala story in first half and Radha story in second half. The response prompted the producers to apply re-censorship for the film.[16] 
 
-{source}[https://en.wikipedia.org/wiki/Mella_Thirandhathu_Kadhavu]
+[source](https://en.wikipedia.org/wiki/Mella_Thirandhathu_Kadhavu)
+
+15. After conceiving the idea of the film, Asif visited Naushad and handed him a briefcase containing money, telling him to make "memorable music" for Mughal-e-Azam. Offended by the explicit notion of money as a means of gaining quality, Naushad threw the notes out of the window, to the surprise of his wife. She subsequently made peace between the two men, and Asif apologised. With this, Naushad accepted the offer to compose the film's soundtrack
+
+[source] (https://en.wikipedia.org/wiki/Mughal-e-Azam)
