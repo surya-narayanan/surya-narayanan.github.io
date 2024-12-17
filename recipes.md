@@ -1,17 +1,11 @@
 I will write recipes here. If you make them, venmo me $10. Support small businesses. 
 
-1. Potato leek soup- classic french staple. Bake potatoes, sauté leeks, add spices (Thyme? Lemongrass? Mint?). Puree, add water, salt.
+1. Cauliflower tomato soup- Massage olive oil into a cauliflower. Throw it into the oven at 400 with some onions, garlic and tomatoes. Blend the lot after an hour, add water, salt, oregano or any italian spice mix
 
-2. Spinach soup- sautee spinach, fry onions garlic and walnuts in butter. Blend the lot, then bring milk in a pan to warm and add a bit of flour, stir and mix in the blend. Salt.
+2. Grilled cheese- I have found that Cheddar and Romano with cut hot peppers make a great grilled cheese. 
 
-3. Cauliflower tomato soup- Massage olive oil into a cauliflower. Throw it into the oven at 400 with some onions, garlic and tomatoes. Blend the lot after an hour, add water, salt, oregano or any italian spice mix
+3. A fig sandwich. Cut fresh figs, tomatoes and cucumbers. Place between slices of rye / white with mustard, cheese, butter, hot sauce and hummus. I used a peachy hot sauce. The key is to attack the sweet, spicy and umami taste receptors. 
 
-4. Curry Ramen- borrowed recipe from guy on internet. Use yakisoba noodles to make easier. Boil carrots, cabbage, cauliflower, babycorn, peas in salt, turmeric, red chili powder. Saute onions, scallions and keep aside. Add cumin, coriander (cilantro) seed powder, coconut milk, or any savory sweet spice, ginger garlic paste, and mix in peppers and onions. Garnish with spring onions, habanero, cilantro and charge eater $25. A solid mix into this is something sweetish like palm sugar and fish oil, but I haven't gotten that far yet.
+4. I've been experimenting with random things to throw into whole wheat flour while making dough for roti. I've found raddish is a great binder, and imparts a subtle salty acidic flavor, with nitrogenous notes. A hint of turmeric, salt and paprika, go well (could also add cumin to the dough). Interestingly, I found that using coconut milk instead of water did not affect the taste of the roti much, and grating ginger instead of raddish made it very hard to roll but was somewhat tasty. I found that using a thin pan instead of a cast iron pan, made the roti easier to work with, since the cast iron pan would cook the dough all the way through and make it more biscuity.
 
-5. Grilled cheese- I have found that Cheddar and Romano with cut hot peppers make a great grilled cheese. The bread I get from Whole Foods sometimes lets the cheese melt into the bread- which is probably also an artifact of my panini press
-
-6. za and pasta- I have a unique take on pizza. I use pita bread from my local north african / middle eastern shop (whole wheat) as a base. When super old (think forgotten in fridge) and tossed in the oven at 400, it crisps, almost like pita chips- which when combined with a mean moz de buf, is an irresistable combo. I usually use the cauliflower tomato soup with an extra can of tomato paste and cream as the base- to add flavor and thickness. I could add some vinegar. Moz de buf (Mozarella di buffala) is key. I also use the same soup as a pasta sauce (you might be thinking I'm cheap or artless. In fact, I might be both). I haven't successfully oven baked a pasta, but if the boys play well, I might.
-
-7. [Salna](https://hebbarskitchen.com/salna-recipe-parotta-salna/) : A really good side with parotta. I might consider adding a bit of tamarind juice in
-
-8. A fig sandwich. Cut fresh figs, tomatoes and cucumbers. Place between slices of rye / white with mustard, cheese, butter, hot sauce and hummus. I used a peachy hot sauce. The key is to attack the sweet, spicy and umami taste receptors. 
+5. 

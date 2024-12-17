@@ -12,24 +12,20 @@
 
 [Blog](blog.md)
 
-[inspiring_internet_memes](text_memes.md)
+[inspiring_internet_content](text_memes.md)
 
 [Places to eat](places2eat.md)
 
 Things to do in LA
 
-1. [1] (https://en.wikipedia.org/wiki/List_of_Los_Angeles_Historic-Cultural_Monuments_in_Hollywood)
-2. [Basquiat_Exhibit] (https://kingpleasure.basquiat.com/ 
-3. https://www.sofarsounds.com/)
+1. [LA_cultural_momuments] (https://en.wikipedia.org/wiki/List_of_Los_Angeles_Historic-Cultural_Monuments_in_Hollywood)
+2. ~~[Basquiat_Exhibit]~~ (https://kingpleasure.basquiat.com/)
+3. [So_far_sounds](https://www.sofarsounds.com/)
 4. [Bridge_Thrift] (https://maps.app.goo.gl/p3gyXm9h2xvuaUkK8?g_st=i)
 5. [It's_A_Wrap_Production] (https://maps.app.goo.gl/Pa6R76omMC8vE4MNA?g_st=i)
 6. [The_Grove] (https://maps.app.goo.gl/e9E2SgZjucPoK9pb9?g_st=i)
 7. [Niche Musems](https://www.niche-museums.com/)
-
-
-Things to do 
-1. 
-2. AV club SF
+8. AV club SF
 
 Gift ideas for mom:
 1. Deep Fryer
@@ -39,23 +35,14 @@ Goals in life
 1. To start a restaurant where patrons can eat only once in their lifetime
 2. Extend my lifespan.
 
-Articles 
-[Why Brian Lara's innings is the second best innings in cricket](https://www.sportskeeda.com/cricket/why-brian-lara-s-153-not-out-against-australia-in-1999-is-the-greatest-test-innings-ever-played)
-
 Wikipedia roulette
 [1](https://en.wikipedia.org/wiki/Freedom_pineapples) [2](https://en.wikipedia.org/wiki/Jefferson_Davis) [3](https://en.wikipedia.org/wiki/Persi_Diaconis) [4](https://en.wikipedia.org/wiki/E._J._Perry)
  
-
 savage SO / github
 1. [1](https://datascience.stackexchange.com/questions/34382/can-cosine-similarity-be-applied-to-multidimensional-matrices)
 2. [2](https://github.com/pytorch/pytorch/issues/30664#issuecomment-561369214)
 3. [3](https://github.com/pytorch/pytorch/issues/8976#issuecomment-400923172)
 4. [4](https://discussions.apple.com/thread/8450226)
-
-Shopping list
-1. Davey Barstools 1 bite t shirt
-2. The Dialectic of Sex and Airless Spaces
-3. Vinyl player
 
 Restaurants to visit 
 1. [Javiers](https://www.javiers-cantina.com/newport-beach#menu=vegetarian-and-vegan)
@@ -64,7 +51,6 @@ Restaurants to visit
 
 
 <!-- 6. The fox apologist to the tree and took its fruits about 8 or 10 times. the tree asks why you spologist  -->
-
 
 <!-- 8. People ask me what my hobbies are: I take the time to catalog old photos from my family on facebook, spend ambl -->
 
