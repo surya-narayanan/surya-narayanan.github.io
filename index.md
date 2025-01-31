@@ -14,9 +14,9 @@ Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
 ## Preprints (or Pre-preprints)
  
-[Hippocampal Index Theory PDF](preprints/Hippocampal_Index_Theory.pdf)
+[Hippocampal Index Theory](preprints/Hippocampal_Index_Theory.pdf)
 
-For more preprints and publications, here is a link to my [google scholar](https://scholar.google.com/citations?user=91W6K84AAAAJ&hl=en)
+<!-- For more preprints and publications, here is a link to my [google scholar](https://scholar.google.com/citations?user=91W6K84AAAAJ&hl=en) -->
 
 <!-- ## Typography
 
