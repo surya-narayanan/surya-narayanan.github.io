@@ -8,7 +8,7 @@ layout: default
   <img src="surya.jpeg" alt="Profile Picture">
 </div>
 
-My name is Surya Narayanan Hari. I am in the PhD program at Caltech, and gradutated from Stanford University. Previously, I worked at the Dana Farber under Eli Van Allen. I grew up in Mumbai, India. 
+Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech, and gradutated from Stanford University prior. Previously, I worked at the Dana Farber under Eli Van Allen. I am originally from Mumbai, India. 
 
 Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
