@@ -43,14 +43,18 @@
         margin: -10px 0 0 15px;
         float: right;
         border-radius: 50%;
-        p & {
-            padding: 0;
+        overflow: hidden;
+
+        img {
+            width: auto;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
             margin: 0;
-        }
-        @media (max-width: $small-width) {
-            img {
-                margin-top: -5px;
-            }
+            padding: 0;
         }
     }
     img:not(.profile-picture) {

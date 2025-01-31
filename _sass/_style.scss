@@ -125,6 +125,11 @@ hr {
 	#navlist li.nav-list {
 		margin: 0;
 	}
+    .content .profile-picture {
+        float: none;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
 }
 
 @import "typography";
