@@ -16,10 +16,10 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/"
- - name: "Resume"
-   link: "resume.pdf"
+#  - name: "About"
+#    link: "/"
+#  - name: "Resume"
+#    link: "resume.pdf"
 #  - name: "Personal"
 #    link: "personal"
 #  - name: "Blog"
