@@ -6,7 +6,9 @@ layout: default
 
 <!-- <img class="profile-picture" src="sherlock.jpg"> -->
 
-My name is Surya Narayanan. I am in the PhD program at Caltech, and gradutated from Stanford University. Previously, I worked at the Dana Farber under Eli Van Allen. I grew up in Mumbai, India. 
+My name is Surya Narayanan Hari. I am in the PhD program at Caltech, and gradutated from Stanford University. Previously, I worked at the Dana Farber under Eli Van Allen. I grew up in Mumbai, India. 
+
+Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
 <!-- Please fill out this form before we proceed: [https://forms.gle/SuPzCBeXCB26Zexa7](https://forms.gle/SuPzCBeXCB26Zexa7) -->
 
