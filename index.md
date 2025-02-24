@@ -5,7 +5,7 @@ layout: default
 <!-- ## About Me -->
 
 <div class="profile-picture">
-  <img src="surya.jpeg" alt="Profile Picture">
+  <img src="headshot.jpg" alt="Profile Picture">
 </div>
 
 Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech, and gradutated from Stanford University prior. Previously, I worked at the Dana Farber under Eli Van Allen. I am originally from Mumbai, India. 
