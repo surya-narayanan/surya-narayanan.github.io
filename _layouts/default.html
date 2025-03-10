@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
     <meta name="author" content="{{ site.author }}">
@@ -32,10 +33,11 @@
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}
     <!-- Facebook Open Graph -->
-    <meta name="og:description" content="{{ desc }}">
-    <meta name="og:title" content="{{ site.title }}">
-    <meta name="og:url" content="{{ url }}">
-    <meta name="og:type" content="article">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: 'Surya Narayanan Hari' }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: 'PhD Student at Caltech researching brain algorithms' }}{% endif %}">
+    <meta property="og:image" content="{{ site.url | default: 'https://surya-narayanan.github.io' }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.jpg{% endif %}">
+    <meta property="og:url" content="{{ site.url | default: 'https://surya-narayanan.github.io' }}{{ page.url }}">
+    <meta property="og:type" content="website">
     {% if site.og_image %}
         <meta name="og:image" content="{{ site.og_image }}">
     {% endif %}
@@ -43,15 +45,11 @@
         <meta name="fb:admins" content="{{ site.facebook_id }}">
     {% endif %}
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ desc }}">
-    <meta name="twitter:url" content="{{ url }}">
-    {% if site.twitter_image %}
-        <meta name="twitter:image" content="{{ site.twitter_image }}">
-    {% else %}
-        <meta name="twitter:image" content="{{ site.profile_picture }}">
-    {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: 'Surya Narayanan Hari' }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: 'PhD Student at Caltech researching brain algorithms' }}{% endif %}">
+    <meta name="twitter:url" content="{{ site.url | default: 'https://surya-narayanan.github.io' }}{{ page.url }}">
+    <meta name="twitter:image" content="{{ site.url | default: 'https://surya-narayanan.github.io' }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.jpg{% endif %}">
 </head>
 <body>
     <div class="wrapper">

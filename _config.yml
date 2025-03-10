@@ -1,8 +1,16 @@
 title: Surya Narayanan Hari
-url: "https://surya-narayanan.github.io"
+description: PhD Student at Caltech researching brain algorithms
+url: https://surya-narayanan.github.io
+
+plugins:
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+
 baseurl: "/"
 
-markdown: kramdown
 #ins_logo: "./bits-logo.png"
 
 tracking_id: #
