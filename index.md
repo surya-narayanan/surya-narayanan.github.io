@@ -22,7 +22,9 @@ Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
  
 [Hippocampal Index Theory](preprints/hippocampal-index-theory.html)
 
-[Ideal Ratio of pasta sauce to pasta](preprints/pasta-ratio.html)
+[Ideal Ratio of pasta sauce to pasta](preprints/pasta-ratio-simple.html) (Simple Version)
+
+[Image Test Page](image-test.html) (Check if images are working)
 
 For more preprints and publications, here is a link to my [google scholar](https://scholar.google.com/citations?user=91W6K84AAAAJ&hl=en)
 
