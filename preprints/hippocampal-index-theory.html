@@ -22,6 +22,24 @@
     <!-- Redirect after 10 seconds to allow social media crawlers to read the metadata -->
     <meta http-equiv="refresh" content="10;url=/preprints/Hippocampal_Index_Theory.pdf">
     
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+      
+      // Track PDF download
+      setTimeout(function() {
+        gtag('event', 'download', {
+          'event_category': 'PDF',
+          'event_label': 'Hippocampal Index Theory',
+          'value': 1
+        });
+      }, 9000);
+    </script>
+    
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -92,6 +110,12 @@
             margin: 0;
             color: #555;
         }
+        .visitor-stats {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #777;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -113,7 +137,12 @@
     </div>
 
     <div class="redirect-notice">
-        <p>You will be redirected to the PDF in a few seconds. If you are not redirected automatically, <a href="/preprints/Hippocampal_Index_Theory.pdf">click here</a>.</p>
+        <p>You will be redirected to the PDF in a few seconds. If you are not redirected automatically, <a href="/preprints/Hippocampal_Index_Theory.pdf" onclick="gtag('event', 'click_download', {'event_category': 'PDF', 'event_label': 'Hippocampal Index Theory'});">click here</a>.</p>
+    </div>
+    
+    <div class="visitor-stats">
+        <!-- Flag Counter - Shows visitor countries -->
+        <a href="https://info.flagcounter.com/surya-narayanan"><img src="https://s01.flagcounter.com/count2/surya-narayanan/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
     </div>
 </body>
 </html> 
