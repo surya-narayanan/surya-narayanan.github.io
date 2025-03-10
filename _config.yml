@@ -5,11 +5,15 @@ url: https://surya-narayanan.github.io
 plugins:
   - jekyll-redirect-from
 
+# Redirect settings
+redirect_from:
+  enabled: true
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
 
-baseurl: "/"
+baseurl: ""
 
 #ins_logo: "./bits-logo.png"
 

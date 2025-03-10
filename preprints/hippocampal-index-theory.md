@@ -2,7 +2,7 @@
 layout: default
 title: "Hippocampal Index Theory"
 description: "A preprint exploring the index theory of hippocampal function"
-image: "/assets/images/preprints/hippocampal_index_theory_preview.jpg"
+image: "/assets/images/preprints/hippocampal_index_theory_preview.png"
 redirect_to: "/preprints/Hippocampal_Index_Theory.pdf"
 ---
 

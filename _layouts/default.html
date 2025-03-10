@@ -35,7 +35,7 @@
     <!-- Facebook Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: 'Surya Narayanan Hari' }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: 'PhD Student at Caltech researching brain algorithms' }}{% endif %}">
-    <meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.jpg{% endif %}">
+    <meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.png{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:type" content="website">
     {% if site.og_image %}
@@ -49,7 +49,12 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: 'Surya Narayanan Hari' }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: 'PhD Student at Caltech researching brain algorithms' }}{% endif %}">
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-    <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.jpg{% endif %}">
+    <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.png{% endif %}">
+    
+    {% if page.redirect_to %}
+    <!-- Add a delay to the redirect to allow social media crawlers to read the metadata -->
+    <meta http-equiv="refresh" content="3;url={{ page.redirect_to }}">
+    {% endif %}
 </head>
 <body>
     <div class="wrapper">

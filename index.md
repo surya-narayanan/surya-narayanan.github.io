@@ -20,9 +20,9 @@ Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
 ## Preprints (or Pre-preprints)
  
-[Hippocampal Index Theory](preprints/hippocampal-index-theory)
+[Hippocampal Index Theory](preprints/hippocampal-index-theory.html)
 
-[Ideal Ratio of pasta sauce to pasta](preprints/pasta-ratio)
+[Ideal Ratio of pasta sauce to pasta](preprints/pasta-ratio.html)
 
 For more preprints and publications, here is a link to my [google scholar](https://scholar.google.com/citations?user=91W6K84AAAAJ&hl=en)
 
