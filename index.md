@@ -8,11 +8,11 @@ layout: default
   <img src="headshot.jpg" alt="Profile Picture">
 </div>
 
-Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech, and gradutated from Stanford University prior. Previously, I worked at the Dana Farber under Eli Van Allen. I am originally from Mumbai, India. 
+Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech, and gradutated from Stanford University prior. I am originally from Mumbai, India. 
 
 I'm interested in understanding the algorithms that the brain uses. In my spare time, I enjoy stand up comedy, soccer and spending time with friends and family. 
 
-My favorite books (that I  might not have finished reading) are The Godfather, Moby Dick and the Handmaiden. My favorite movies, are (no surprises) The Godfather, Tampopo and Children of Paradise. You can find my favorite movies [here](movies.md), and my favorite books [here](books.md).
+My favorite books (that I  might not have finished reading) are The Godfather, Moby Dick and Shopgirl. My favorite movies, are The Godfather (no surprises), Tampopo and Children of Paradise. 
 
 Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
@@ -21,6 +21,8 @@ Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 ## Preprints (or Pre-preprints)
  
 [Hippocampal Index Theory](preprints/Hippocampal_Index_Theory.pdf)
+
+[Ideal Ratio of pasta sauce to pasta](preprints/Ideal_ratio_of_pasta_sauce_to_pasta.pdf)
 
 For more preprints and publications, here is a link to my [google scholar](https://scholar.google.com/citations?user=91W6K84AAAAJ&hl=en)
 
