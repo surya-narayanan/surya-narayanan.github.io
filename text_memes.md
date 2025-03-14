@@ -35,3 +35,5 @@ Then the little man with his long hair and Emersonian face edged his way past us
 16. Ripped for using OpenAI in the OpenAI sub [source](https://www.reddit.com/r/OpenAI/comments/1445zzp/comment/jnf5gva/)
 
 17. [Why Brian Lara's innings is the second best innings in cricket](https://www.sportskeeda.com/cricket/why-brian-lara-s-153-not-out-against-australia-in-1999-is-the-greatest-test-innings-ever-played)
+
+18. AlphaGo must choose between a scenario where it will win by 20 points with 80 percent probability and another where it will win by 1 and a half points with 99 percent probability, it will choose the latter, even if it must give up points to achieve it. (wki)[https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol]
