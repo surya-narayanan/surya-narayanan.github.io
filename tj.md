@@ -1,0 +1,3 @@
+Review of all trader joes food
+
+1. vegan enchilladas - VERY bad. Only one flavor, of canned tomatoes. Texture is complete slop, with the occasional crunch of a carrot with no taste whatsoever. The only thing that can be tasted is the crushed beans, outside the tomatoes. The corn tortilla at the bottom is just falling apart, and all the corn tortillas in the middle are just add to the sloppy texture. I was eating straight sludge for the most part, and was just gulping it down out of fear that I will waste food. 

@@ -16,6 +16,8 @@
 
 [Places to eat](places2eat.md)
 
+[Reviews of trader joes food](tj.md)
+
 Things to do in LA
 
 1. [LA_cultural_momuments] (https://en.wikipedia.org/wiki/List_of_Los_Angeles_Historic-Cultural_Monuments_in_Hollywood)
