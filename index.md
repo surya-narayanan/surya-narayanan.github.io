@@ -10,9 +10,9 @@ layout: default
 
 Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech, and gradutated from Stanford University prior. I am originally from Mumbai, India. 
 
-I'm interested in understanding the algorithms that the brain uses. In my spare time, I enjoy stand up comedy, soccer and spending time with friends and family. 
+I am interested in interesting things. In my spare time, I enjoy peoplewatching and soccer. 
 
-My favorite books (that I  might not have finished reading) are The Godfather, Moby Dick and Shopgirl. My favorite movies, are The Godfather (no surprises), Tampopo and Children of Paradise. 
+My favorite books (that I  might not have finished reading) are The Godfather, Moby Dick and Shopgirl. My favorite movies are Tampopo and Children of Paradise. 
 
 Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
