@@ -28,11 +28,11 @@ sass:
     sass_dir: _sass
 
 nav:
-#  - name: "About"
-#    link: "/"
-#  - name: "Resume"
-#    link: "resume.pdf"
-#  - name: "Personal"
-#    link: "personal"
-#  - name: "Blog"
+  - name: "Bento"
+    link: "https://bento.io/surya-narayanan"
+  # - name: "Resume"
+  #   link: "resume.pdf"
+  # - name: "Personal"
+  #   link: "personal"
+  # - name: "Blog"
 #    link: "blog"
