@@ -30,8 +30,8 @@ sass:
 nav:
   - name: "Bento"
     link: "https://bento.io/surya-narayanan"
-  # - name: "Resume"
-  #   link: "resume.pdf"
+  - name: "Resume"
+    link: "resume.pdf"
   # - name: "Personal"
   #   link: "personal"
   # - name: "Blog"
