@@ -8,21 +8,15 @@ layout: default
   <img src="headshot.jpg" alt="Profile Picture">
 </div>
 
-Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech, and gradutated from Stanford University prior. I am originally from Mumbai, India. 
+Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech, and gradutated from Stanford University prior. In my spare time, I enjoy peoplewatching and soccer. 
 
-I am interested in interesting things. In my spare time, I enjoy peoplewatching and soccer. 
-
-My favorite books (that I  might not have finished reading) are The Godfather, Moby Dick and Shopgirl. My favorite movies are Tampopo and Children of Paradise. 
+My favorite books are The Godfather, Moby Dick and Shopgirl. My favorite movies are Tampopo and Children of Paradise. 
 
 Email: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
 <!-- Please fill out this form before we proceed: [https://forms.gle/SuPzCBeXCB26Zexa7](https://forms.gle/SuPzCBeXCB26Zexa7) -->
 
 ## Preprints (or Pre-preprints)
- 
-[Hippocampal Index Theory](preprints/hippocampal-index-theory.html)
-
-[Ideal Ratio of pasta sauce to pasta](preprints/pasta-ratio-simple.html)
 
 For more preprints and publications, here is a link to my [google scholar](https://scholar.google.com/citations?user=91W6K84AAAAJ&hl=en)
 
