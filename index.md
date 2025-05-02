@@ -8,7 +8,7 @@ layout: default
   <img src="headshot.jpg" alt="Profile Picture">
 </div>
 
-Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech. I am a big fan of pursuing new ideas. This has led me to studying different fields in my Bachelors, Masters and my PhD. It also influenced my hobbies, I enjoy peoplewatching, art and a variety of sport. 
+Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech. I am a big fan of pursuing new ideas, and my goal is to push the boundaries of the human experience. This has led me to trying out stand up comedy and studying different fields in my undergrad and graduate education. It also influenced my hobbies, I enjoy peoplewatching, and a variety of sport. 
 
 You may like this about me - my favorite books are The Prophet, Moby Dick and Shopgirl. My favorite movies are Tampopo and Children of Paradise. 
 
