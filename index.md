@@ -7,10 +7,11 @@ layout: default
 <div class="profile-picture">
   <img src="headshot.jpg" alt="Profile Picture">
 </div>
+The goal of life, the Dalai Lama said, is to walk into a room and be loved by all who are there. 
 
-Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech. I am a big fan of pursuing new ideas, and my goal is to push the boundaries of the human experience. This has led me to trying out stand up comedy and studying different fields in my undergrad and graduate education. It also influenced my hobbies, I enjoy peoplewatching, and a variety of sport. 
+Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech. I am a big fan of pursuing new ideas, and my goal is to push the boundaries of the human experience. This has influenced my hobbies, which include peoplewatching, art and a variety of sport. 
 
-You may like this about me - my favorite books are The Prophet, Moby Dick and Shopgirl. My favorite movies are Tampopo and Children of Paradise. 
+You may like this about me - my favorite books are The Prophet, Moby Dick and Shopgirl. My favorite movies are The Great Dictator, Tampopo and Children of Paradise. 
 
 Reach out to me if you'd like to connect: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
@@ -36,7 +37,6 @@ Here is a horizontal rule
 <!-- ## To do
 Add a [bibbase](https://bibbase.org/start) -->
 
-## Random
 
 > Higgins was so proficient in Carnatic music that he was called Higgins Bhagvathar. When he visited the Udupi Shri Krishna temple, he was denied entry because of his white skin by those who managed the temple. He stood at the gate and sang in chaste Kannada the Vyasatirtha composition, 'Krishna nee begane baro', an action that was similar to Kanaka Dasa's protest in 16th century. He was permitted entry immediately, possibly to avert an 'intervention from the deity', that Kanaka Dasa's legend spoke of.
 
