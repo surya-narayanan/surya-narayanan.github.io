@@ -1,4 +1,11 @@
 Inspiring internet content
+
+- . Spinochordodes tellinii is a parasitic nematomorph hairworm whose larvae develop in grasshoppers and crickets. This parasite is able to influence its host's behavior: once the parasite is grown, it causes its grasshopper host to jump into water, where the grasshopper will likely drown. The parasite then leaves its host; the adult worm lives and reproduces in water.[2] S. tellinii does not influence its host to actively seek water over large distances, but only when it is already close to water.[3]
+
+The microscopic larvae are ingested by their insect hosts and develop inside them into worms that can be three to four times longer than the host.
+
+The precise molecular mechanism underlying the modification of the host's behaviour is not yet known. [link](https://en.wikipedia.org/wiki/Spinochordodes_tellinii)
+
 0. "When she (M.S. Subbalaxmi) sang his composition `Brochevarevarura' in Khamas, eminent musician Mysore Vasudevachar said, "The daughter had only black beads and glass bangles when she got married. I feel like her father when she visits him now in a dazzle of jewel and silks." (From the article The MS Phenomenon by Gowri Ramnarayan) [link](https://tamilnation.org/hundredtamils/mssubbulakshmi.htm)
 
 1. Author Jon Cohen noted, "Jonas Salk made scientists and journalists alike go goofy. As one of the only living scientists whose face was known the world over, Salk, in the public's eye, had a superstar aura. Airplane pilots would announce that he was on board, and passengers would burst into applause. Hotels routinely would upgrade him into their penthouse suites. A meal at a restaurant inevitably meant an interruption from an admirer. Scientists and journalists who regularly dealt with Salk would come to see him in more human terms, but many still initially approached him with the same drop-jawed wonder, as though some of the stardust might rub off."[45](https://en.wikipedia.org/wiki/Jonas_Salk)
