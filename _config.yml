@@ -11,7 +11,7 @@ redirect_from:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 
 baseurl: ""
 
