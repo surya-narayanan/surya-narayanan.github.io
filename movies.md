@@ -70,6 +70,9 @@
 71. Godfather CODA the death of Michael Corleone
 72. Anora - i found it surprising that the girl fell in love with a man, who didnt flirt with her. She was portarayed to be sensible, and modern, and was definitely amazed by his money, but i thought she was portrayed to be smarter than that. i thought the movie could be better with a heartthrob. 
 73. 2046: Love is all about timing. 
+74. Clueless: Above average writing but jesus christ what colossal nonsense are they condoning incest?
+75. Assassination of Fish: Boring, but warm.
+76. Subramaniapuram: One of my favorites. It is said that every man goes into a life of crime wishing to be eternal, and is painfully reminded of his mortality. 
 
 To watch: 
 

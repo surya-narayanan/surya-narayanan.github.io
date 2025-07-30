@@ -1,4 +1,8 @@
+
+
 Inspiring internet content
+
+- When he first pitched the idea of Pokémon to Nintendo staff, they could not quite grasp the concept, but were impressed enough with Tajiri's game design reputation that they decided to explore it. Shigeru Miyamoto began to mentor Tajiri, guiding him during the creation process.[3] Pokémon Red and Green took six years to produce, and nearly bankrupted Game Freak in the process; often, there was barely enough money to pay the employees.[3] Five employees quit, and Tajiri did not take a salary, instead living off of his father's income
 
 - . Spinochordodes tellinii is a parasitic nematomorph hairworm whose larvae develop in grasshoppers and crickets. This parasite is able to influence its host's behavior: once the parasite is grown, it causes its grasshopper host to jump into water, where the grasshopper will likely drown. The parasite then leaves its host; the adult worm lives and reproduces in water.[2] S. tellinii does not influence its host to actively seek water over large distances, but only when it is already close to water.[3]
 
