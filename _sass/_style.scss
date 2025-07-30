@@ -26,7 +26,7 @@ body {
     overflow-x: hidden;
     line-height: 1.6;
     
-    // GLITCH BACKGROUND ANIMATION
+    // MATRIX RAIN & PARTICLE EFFECTS
     &::before {
         content: '';
         position: fixed;
@@ -36,17 +36,132 @@ body {
         height: 100%;
         background: 
             radial-gradient(circle at 20% 50%, rgba(255, 0, 0, 0.05) 0%, transparent 50%),
-            radial-gradient(circle at 80% 20%, rgba(0, 255, 255, 0.03) 0%, transparent 50%),
-            radial-gradient(circle at 40% 80%, rgba(255, 0, 64, 0.04) 0%, transparent 50%);
+            radial-gradient(circle at 80% 20%, rgba(0, 255, 159, 0.03) 0%, transparent 50%),
+            radial-gradient(circle at 40% 80%, rgba(255, 107, 157, 0.04) 0%, transparent 50%);
         pointer-events: none;
         z-index: -1;
         animation: glitchBg 8s ease-in-out infinite alternate;
     }
+    
+    &::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: 
+            linear-gradient(rgba(0, 255, 159, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 0, 0, 0.1) 1px, transparent 1px);
+        background-size: 50px 50px;
+        pointer-events: none;
+        z-index: -2;
+        opacity: 0.3;
+        animation: grid-move 20s linear infinite;
+    }
 }
 
 @keyframes glitchBg {
-    0%, 100% { opacity: 0.8; }
-    50% { opacity: 1; }
+    0%, 100% { 
+        opacity: 0.8;
+        transform: translateX(0);
+    }
+    25% {
+        opacity: 1;
+        transform: translateX(2px);
+    }
+    50% { 
+        opacity: 1;
+        transform: translateX(-2px);
+    }
+    75% {
+        opacity: 0.9;
+        transform: translateX(1px);
+    }
+}
+
+@keyframes grid-move {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(50px, 50px); }
+}
+
+// MATRIX RAIN EFFECT
+.matrix-rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.1;
+    font-family: $font-mono;
+    font-size: 14px;
+    color: $accent-secondary;
+    overflow: hidden;
+    
+    .matrix-column {
+        position: absolute;
+        top: -100px;
+        animation: matrix-fall linear infinite;
+        white-space: nowrap;
+        
+        &:nth-child(odd) {
+            color: $accent;
+            animation-duration: 3s;
+        }
+        
+        &:nth-child(even) {
+            color: $accent-secondary;
+            animation-duration: 4s;
+        }
+        
+        &:nth-child(3n) {
+            animation-duration: 2.5s;
+        }
+    }
+}
+
+@keyframes matrix-fall {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(calc(100vh + 100px));
+        opacity: 0;
+    }
+}
+
+// TERMINAL CURSOR
+.terminal-cursor {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 12px;
+    height: 20px;
+    background: $accent;
+    z-index: 1000;
+    font-family: $font-mono;
+    animation: cursor-blink 1.2s infinite;
+    
+    &::before {
+        content: '_';
+        color: $accent;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@keyframes cursor-blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
 }
 
 // SELECTION STYLING
@@ -121,6 +236,7 @@ hr {
         color: $glitch-red;
         z-index: -1;
         animation: glitch-1 0.3s ease-in-out infinite alternate;
+        opacity: 0.8;
     }
     
     &::after {
@@ -128,9 +244,10 @@ hr {
         position: absolute;
         top: 0;
         left: -2px;
-        color: $glitch-cyan;
+        color: $accent-secondary;
         z-index: -2;
         animation: glitch-2 0.3s ease-in-out infinite alternate-reverse;
+        opacity: 0.8;
     }
     
     &:hover {
@@ -138,7 +255,10 @@ hr {
             0 0 5px $accent,
             0 0 10px $accent,
             0 0 20px $accent,
-            0 0 40px $accent;
+            0 0 40px $accent,
+            2px 0 0 $accent-secondary,
+            -2px 0 0 $accent-tertiary;
+        animation: text-glitch 0.5s ease-in-out;
     }
 }
 
@@ -285,15 +405,16 @@ hr {
         border: 3px solid $accent;
         box-shadow: 
             0 0 20px rgba(255, 0, 0, 0.5),
-            0 0 40px rgba(255, 0, 0, 0.3),
+            0 0 40px rgba(0, 255, 159, 0.3),
             inset 0 0 20px rgba(0, 0, 0, 0.2);
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         
         &:hover {
-            transform: scale(1.05) rotate(2deg);
+            transform: scale(1.05) rotate(5deg);
             box-shadow: 
                 0 0 30px rgba(255, 0, 0, 0.8),
-                0 0 60px rgba(255, 0, 0, 0.4),
+                0 0 60px rgba(0, 255, 159, 0.5),
+                0 0 100px rgba(255, 107, 157, 0.3),
                 inset 0 0 30px rgba(0, 0, 0, 0.3);
         }
     }
@@ -306,15 +427,92 @@ hr {
         right: -10px;
         bottom: -10px;
         border: 2px solid transparent;
-        border-image: linear-gradient(45deg, $accent, $chrome, $accent) 1;
+        border-image: linear-gradient(45deg, $accent, $accent-secondary, $accent-tertiary, $accent) 1;
         border-radius: 50%;
         animation: rotate 8s linear infinite;
+    }
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        right: -15px;
+        bottom: -15px;
+        border-radius: 50%;
+        background: linear-gradient(45deg, $accent, $accent-secondary, $accent-tertiary);
+        z-index: -1;
+        opacity: 0.6;
+        animation: profile-glow 3s ease-in-out infinite alternate, rotate 12s linear infinite reverse;
     }
 }
 
 @keyframes rotate {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
+}
+
+@keyframes profile-glow {
+    0% { 
+        transform: scale(1) rotate(0deg); 
+        opacity: 0.6; 
+    }
+    50% {
+        transform: scale(1.05) rotate(180deg);
+        opacity: 0.8;
+    }
+    100% { 
+        transform: scale(1.1) rotate(360deg); 
+        opacity: 0.6; 
+    }
+}
+
+// TEXT GLITCH ANIMATION
+@keyframes text-glitch {
+    0% { 
+        transform: translate(0);
+        text-shadow: none;
+    }
+    10% { 
+        transform: translate(-2px, 1px);
+        text-shadow: 2px 0 $accent-secondary, -2px 0 $accent-tertiary;
+    }
+    20% { 
+        transform: translate(2px, -1px);
+        text-shadow: -2px 0 $accent-secondary, 2px 0 $accent-tertiary;
+    }
+    30% { 
+        transform: translate(-1px, 2px);
+        text-shadow: 1px 0 $accent-secondary, -1px 0 $accent-tertiary;
+    }
+    40% { 
+        transform: translate(1px, -2px);
+        text-shadow: -1px 0 $accent-secondary, 1px 0 $accent-tertiary;
+    }
+    50% { 
+        transform: translate(-2px, -1px);
+        text-shadow: 2px 0 $accent-secondary, -2px 0 $accent-tertiary;
+    }
+    60% { 
+        transform: translate(2px, 1px);
+        text-shadow: -2px 0 $accent-secondary, 2px 0 $accent-tertiary;
+    }
+    70% { 
+        transform: translate(-1px, -2px);
+        text-shadow: 1px 0 $accent-secondary, -1px 0 $accent-tertiary;
+    }
+    80% { 
+        transform: translate(1px, 2px);
+        text-shadow: -1px 0 $accent-secondary, 1px 0 $accent-tertiary;
+    }
+    90% { 
+        transform: translate(0, 1px);
+        text-shadow: 1px 0 $accent-secondary, -1px 0 $accent-tertiary;
+    }
+    100% { 
+        transform: translate(0);
+        text-shadow: none;
+    }
 }
 
 /* Institute Image - PHANTOM EDITION */
@@ -374,6 +572,22 @@ hr {
             height: 160px;
         }
     }
+    
+    .ascii-art-container {
+        display: none;
+    }
+    
+    .terminal-cursor {
+        display: none;
+    }
+    
+    .matrix-rain {
+        opacity: 0.05;
+    }
+    
+    .particle-container {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
@@ -424,6 +638,13 @@ hr {
             height: 140px;
         }
     }
+    
+    .matrix-rain,
+    .particle-container,
+    .ascii-art-container,
+    .terminal-cursor {
+        display: none;
+    }
 }
 
 /*
@@ -431,32 +652,81 @@ hr {
  */
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
     background: $bg-secondary;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, $accent, $accent-secondary);
-    border-radius: 4px;
+    background: linear-gradient(180deg, $accent, $accent-secondary, $accent-tertiary);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
     
     &:hover {
-        background: linear-gradient(180deg, $accent-glow, $accent);
+        background: linear-gradient(180deg, $accent-glow, $accent-secondary, $accent-tertiary);
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    }
+}
+
+// ASCII ART FLOATING ELEMENT
+.ascii-art-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.ascii-art {
+    font-family: $font-mono;
+    font-size: 0.7rem;
+    color: $accent-secondary;
+    white-space: pre;
+    animation: ascii-float 6s ease-in-out infinite;
+    text-shadow: 0 0 5px rgba(0, 255, 159, 0.5);
+}
+
+@keyframes ascii-float {
+    0%, 100% { 
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0.7;
+    }
+    33% { 
+        transform: translateY(-10px) rotate(1deg);
+        opacity: 0.9;
+    }
+    66% { 
+        transform: translateY(5px) rotate(-1deg);
+        opacity: 0.8;
     }
 }
 
 /*
- * PHANTOM UTILITIES
+ * PHANTOM UTILITIES & EFFECTS
  */
 
 .text-glow {
     text-shadow: 0 0 10px $accent;
 }
 
+.text-glow-cyan {
+    text-shadow: 0 0 10px $accent-secondary;
+}
+
 .chrome-text {
     background: linear-gradient(45deg, $chrome-dark, $chrome, $chrome-dark);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, $accent, $accent-secondary, $accent-tertiary);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -470,6 +740,58 @@ hr {
 @keyframes pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.7; }
+}
+
+.glitch-hover:hover {
+    animation: text-glitch 0.5s ease-in-out;
+}
+
+// PARTICLE EFFECTS
+.particle-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+    overflow: hidden;
+    
+    .particle {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background: $accent-secondary;
+        border-radius: 50%;
+        animation: particle-float 8s linear infinite;
+        
+        &:nth-child(odd) {
+            background: $accent;
+            animation-duration: 6s;
+        }
+        
+        &:nth-child(3n) {
+            background: $accent-tertiary;
+            animation-duration: 10s;
+        }
+    }
+}
+
+@keyframes particle-float {
+    0% {
+        transform: translateY(100vh) translateX(0);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100px) translateX(100px);
+        opacity: 0;
+    }
 }
 
 @import "typography";

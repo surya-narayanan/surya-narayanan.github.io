@@ -2,15 +2,16 @@
  * Customization Variables - ULTRA DRIP EDITION
  */
 
-// Core colors - PHANTOM BLACK & BLOOD RED
-$bg-primary: #0a0a0a;
-$bg-secondary: #111111;
-$bg-tertiary: #1a1a1a;
-$text-primary: #ffffff;
-$text-secondary: #cccccc;
-$text-muted: #666666;
+// Core colors - PHANTOM BLACK & BLOOD RED + CYAN MATRIX
+$bg-primary: #0a0a0f;
+$bg-secondary: #1a1a25;
+$bg-tertiary: #2a2a35;
+$text-primary: #e8e8f0;
+$text-secondary: #b8b8c0;
+$text-muted: #88889a;
 $accent: #ff0000;
-$accent-secondary: #cc0000;
+$accent-secondary: #00ff9f;
+$accent-tertiary: #ff6b9d;
 $accent-glow: #ff3333;
 $chrome: #c0c0c0;
 $chrome-dark: #808080;
@@ -18,10 +19,39 @@ $glitch-red: #ff0040;
 $glitch-cyan: #00ffff;
 $glitch-green: #00ff40;
 
-// Typography
+// CSS Custom Properties for dynamic theming
+:root {
+    --bg-primary: #{$bg-primary};
+    --bg-secondary: #{$bg-secondary};
+    --bg-tertiary: #{$bg-tertiary};
+    --text-primary: #{$text-primary};
+    --text-secondary: #{$text-secondary};
+    --text-muted: #{$text-muted};
+    --accent-primary: #{$accent};
+    --accent-secondary: #{$accent-secondary};
+    --accent-tertiary: #{$accent-tertiary};
+    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --gradient-matrix: linear-gradient(135deg, #0f3460 0%, #0c2340 100%);
+    --shadow-glow: 0 0 20px rgba(255, 0, 0, 0.4);
+    --shadow-glow-cyan: 0 0 20px rgba(0, 255, 159, 0.3);
+    --shadow-soft: 0 8px 32px rgba(0, 0, 0, 0.3);
+    --border-glow: 1px solid rgba(255, 0, 0, 0.4);
+    --border-glow-cyan: 1px solid rgba(0, 255, 159, 0.4);
+}
+
+// Typography - ULTRA LUXURY
 $font-primary: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
 $font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Monaco, Consolas, monospace;
 $font-display: 'Inter Display', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+
+// Add CSS variables for fonts
+:root {
+    --mono-font: #{$font-mono};
+    --sans-font: #{$font-primary};
+    --display-font: #{$font-display};
+}
 
 // Sizes
 $image-size: 200px;
