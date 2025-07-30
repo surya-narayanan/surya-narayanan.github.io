@@ -1,0 +1,26 @@
+// Typography utilities and additional styles
+.mono {
+  font-family: var(--mono-font);
+}
+
+.sans {
+  font-family: var(--sans-font);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px var(--accent-primary);
+}
+
+// Additional text sizes
+.text-xs { font-size: 0.75rem; }
+.text-sm { font-size: 0.875rem; }
+.text-base { font-size: 1rem; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+.text-3xl { font-size: 1.875rem; }
+.text-4xl { font-size: 2.25rem; }

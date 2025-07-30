@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
+    <meta name="author" content="{{ site.author }}">
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+    {% if page.description %}
+        {% assign desc = page.description %}
+    {% else %}
+        {% assign desc = site.description %}
+    {% endif %}
+    {% if page.url %}
+        {% assign url = site.url | append: site.baseurl | append: page.url %}
+    {% else %}
+        {% assign url = site.url | append: site.baseurl | append: page.url %}
+    {% endif %}
+    <meta name="description" content="{{ desc }}">
+    <link href='https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    {% if site.favicon %}
+        <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
+        <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
+    {% endif %}
+    {% if site.twitter_username %}
+        <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
+    {% endif %}
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: 'Surya Narayanan Hari' }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: 'PhD Student at Caltech researching brain algorithms' }}{% endif %}">
+    <meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.png{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    {% if site.og_image %}
+        <meta name="og:image" content="{{ site.og_image }}">
+    {% endif %}
+    {% if site.facebook_id %}
+        <meta name="fb:admins" content="{{ site.facebook_id }}">
+    {% endif %}
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title | default: 'Surya Narayanan Hari' }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description | default: 'PhD Student at Caltech researching brain algorithms' }}{% endif %}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}/assets/images/default-preview.png{% endif %}">
+    
+    {% if page.redirect_to %}
+    <!-- Add a delay to the redirect to allow social media crawlers to read the metadata -->
+    <meta http-equiv="refresh" content="3;url={{ page.redirect_to }}">
+    {% endif %}
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="background-grid"></div>
+    <canvas id="particle-canvas" class="particle-canvas"></canvas>
+    <canvas id="matrix-canvas" class="matrix-canvas"></canvas>
+    
+    <div id="terminal-cursor" class="terminal-cursor"></div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="{{ site.url }}{{ site.baseurl }}" class="logo">
+                    <span class="logo-brackets">[</span>
+                    <span class="logo-text">{{ site.title | default: "surya.sh" }}</span>
+                    <span class="logo-brackets">]</span>
+                </a>
+                
+                <nav class="main-nav">
+                    <button class="nav-toggle" aria-label="Toggle navigation">
+                        <span class="nav-toggle-bar"></span>
+                        <span class="nav-toggle-bar"></span>
+                        <span class="nav-toggle-bar"></span>
+                    </button>
+                    
+                    <div class="nav-menu">
+                        <a href="{{ site.url }}{{ site.baseurl }}" class="nav-link">
+                            <span class="nav-symbol">~</span>home
+                        </a>
+                        <a href="/books" class="nav-link">
+                            <span class="nav-symbol">📚</span>books
+                        </a>
+                        <a href="/movies" class="nav-link">
+                            <span class="nav-symbol">🎬</span>films
+                        </a>
+                        <a href="/text_memes" class="nav-link">
+                            <span class="nav-symbol">💭</span>thoughts
+                        </a>
+                        <a href="/recipes" class="nav-link">
+                            <span class="nav-symbol">🍳</span>recipes
+                        </a>
+                        <a href="/preprints" class="nav-link">
+                            <span class="nav-symbol">📄</span>papers
+                        </a>
+                        <a href="/contact" class="nav-link">
+                            <span class="nav-symbol">📧</span>connect
+                        </a>
+                        {% for x in site.nav %}
+                            {% if x.name == "Resume" %}
+                                <a href="{{ x.link }}" target="_blank" class="nav-link resume-link">
+                                    <span class="nav-symbol">📋</span>{{ x.name | downcase }}
+                                </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            {% if page.is_contact == true %}
+                <div class="content contact">
+            {% else %}
+                <div class="content">
+            {% endif %}
+                    {{ content }}
+                    {% if site.footer == true %}
+                        <footer class="footer">
+                            <div class="footer-content">
+                                <a href="{{ site.footer_url }}" class="footer-link">{{ site.footer_text }}</a>
+                            </div>
+                        </footer>
+                    {% endif %}
+                </div>
+        </div>
+    </main>
+
+    <div class="ascii-art-container">
+        <div class="ascii-art" id="ascii-art"></div>
+    </div>
+
+    <script>
+        // Terminal cursor animation
+        const cursor = document.getElementById('terminal-cursor');
+        let isVisible = true;
+        setInterval(() => {
+            cursor.style.opacity = isVisible ? '0' : '1';
+            isVisible = !isVisible;
+        }, 530);
+
+        // Sound effects
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        
+        function playSound(frequency, duration, type = 'sine') {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = frequency;
+            oscillator.type = type;
+            
+            gainNode.gain.setValueAtTime(0, audioContext.currentTime);
+            gainNode.gain.linearRampToValueAtTime(0.1, audioContext.currentTime + 0.01);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + duration);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + duration);
+        }
+
+        // Mobile navigation
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+            playSound(800, 0.1);
+        });
+        
+        // Add sound effects to nav links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                playSound(1200, 0.05);
+            });
+            link.addEventListener('click', () => {
+                playSound(600, 0.1);
+            });
+        });
+        
+        // Add sound effects to content cards
+        document.querySelectorAll('.content-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                playSound(400, 0.08);
+            });
+            card.addEventListener('click', () => {
+                playSound(300, 0.12);
+            });
+        });
+
+        // ASCII art rotation (inspired by coretsu.com)
+        const asciiPatterns = [
+            `    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣤⣤⣤⣤⣤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⠿⠿⠿⠿⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`,
+            
+            `    ╭─────────────────────────────────╮
+    │  thinking about the universe... │
+    ├─────────────────────────────────┤
+    │ ▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░ │
+    │ 42% complete                    │
+    ╰─────────────────────────────────╯`,
+            
+            `    ┌─┐┬ ┬┬─┐┬ ┬┌─┐
+    └─┐│ │├┬┘└┬┘├─┤
+    └─┘└─┘┴└─ ┴ ┴ ┴
+    ╔══════════════╗
+    ║ neuroscience ║
+    ║ philosophy   ║
+    ║ code poetry  ║
+    ╚══════════════╝`
+        ];
+
+        let currentPattern = 0;
+        const asciiContainer = document.getElementById('ascii-art');
+        
+        function updateAscii() {
+            asciiContainer.textContent = asciiPatterns[currentPattern];
+            currentPattern = (currentPattern + 1) % asciiPatterns.length;
+        }
+        
+        updateAscii();
+        setInterval(updateAscii, 8000);
+
+        // Particle System
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+        
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.size = Math.random() * 2 + 1;
+                this.opacity = Math.random() * 0.5 + 0.2;
+                this.color = Math.random() > 0.5 ? '#00ff9f' : '#ff6b9d';
+            }
+            
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+                if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+            }
+            
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = this.color + Math.floor(this.opacity * 255).toString(16).padStart(2, '0');
+                ctx.fill();
+            }
+        }
+        
+        function initParticles() {
+            particles = [];
+            for (let i = 0; i < 50; i++) {
+                particles.push(new Particle());
+            }
+        }
+        
+        function drawConnections() {
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 150) {
+                        const opacity = 1 - distance / 150;
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.strokeStyle = `rgba(0, 255, 159, ${opacity * 0.1})`;
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+        
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            drawConnections();
+            
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            
+            requestAnimationFrame(animate);
+        }
+        
+        initParticles();
+        animate();
+
+        // Typing animation
+        const typingElement = document.getElementById('typing-text');
+        if (typingElement) {
+            const originalText = typingElement.textContent;
+            typingElement.textContent = '';
+            
+            let i = 0;
+            function typeWriter() {
+                if (i < originalText.length) {
+                    typingElement.textContent += originalText.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 100);
+                } else {
+                    // Add blinking cursor effect
+                    typingElement.style.borderRight = '2px solid var(--accent-primary)';
+                    typingElement.style.animation = 'cursor-blink 1.2s infinite';
+                }
+            }
+            
+            setTimeout(typeWriter, 1000);
+        }
+
+        // Matrix Rain Effect
+        const matrixCanvas = document.getElementById('matrix-canvas');
+        const matrixCtx = matrixCanvas.getContext('2d');
+        
+        function resizeMatrixCanvas() {
+            matrixCanvas.width = window.innerWidth;
+            matrixCanvas.height = window.innerHeight;
+        }
+        
+        window.addEventListener('resize', resizeMatrixCanvas);
+        resizeMatrixCanvas();
+        
+        const matrixChars = 'アカサタナハマヤラワガザダバパイキシチニヒミリヰギジヂビピウクスツヌフムユルグズヅブプエケセテネヘメレヱゲゼデベペオコソトノホモヨロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const fontSize = 14;
+        const columns = matrixCanvas.width / fontSize;
+        const drops = [];
+        
+        for (let x = 0; x < columns; x++) {
+            drops[x] = 1;
+        }
+        
+        function drawMatrix() {
+            matrixCtx.fillStyle = 'rgba(10, 10, 15, 0.04)';
+            matrixCtx.fillRect(0, 0, matrixCanvas.width, matrixCanvas.height);
+            
+            matrixCtx.fillStyle = '#00ff9f';
+            matrixCtx.font = fontSize + 'px monospace';
+            
+            for (let i = 0; i < drops.length; i++) {
+                const text = matrixChars[Math.floor(Math.random() * matrixChars.length)];
+                matrixCtx.fillText(text, i * fontSize, drops[i] * fontSize);
+                
+                if (drops[i] * fontSize > matrixCanvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                drops[i]++;
+            }
+        }
+        
+        setInterval(drawMatrix, 35);
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+
+    {% if site.tracking_id %}
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', '{{ site.tracking_id }}', 'auto');
+          ga('send', 'pageview');
+        </script>
+    {% endif %}
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Sf5dq6ExMHRYDo_PXbCqMJvICSxAOQOrD5Ve__3fezI"></script>
+</body>
+</html>
