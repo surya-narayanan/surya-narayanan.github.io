@@ -1,14 +1,38 @@
 /*
- * Customization Variables
+ * Customization Variables - ULTRA DRIP EDITION
  */
 
-$accent: #FF0F00;
-$image-size: 150px;
+// Core colors - PHANTOM BLACK & BLOOD RED
+$bg-primary: #0a0a0a;
+$bg-secondary: #111111;
+$bg-tertiary: #1a1a1a;
+$text-primary: #ffffff;
+$text-secondary: #cccccc;
+$text-muted: #666666;
+$accent: #ff0000;
+$accent-secondary: #cc0000;
+$accent-glow: #ff3333;
+$chrome: #c0c0c0;
+$chrome-dark: #808080;
+$glitch-red: #ff0040;
+$glitch-cyan: #00ffff;
+$glitch-green: #00ff40;
+
+// Typography
+$font-primary: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Monaco, Consolas, monospace;
+$font-display: 'Inter Display', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+
+// Sizes
+$image-size: 200px;
+$border-radius: 8px;
+$shadow-intense: 0 20px 60px rgba(255, 0, 0, 0.3);
+$shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.5);
 
 /*
- * Build Variables, don't touch
+ * Build Variables
  */
 
-$max-width: 700px;
-$med-width: 600px;
-$small-width: 480px;
+$max-width: 800px;
+$med-width: 700px;
+$small-width: 500px;
