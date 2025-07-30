@@ -28,12 +28,18 @@ sass:
     sass_dir: _sass
 
 nav:
-  - name: "Bento"
-    link: "http://bento.me/ecstaticindian"
+  - name: "Books"
+    link: "books"
+  - name: "Movies"
+    link: "movies"
+  - name: "Music"
+    link: "music"
+  - name: "Recipes"
+    link: "recipes"
+  - name: "Personal"
+    link: "personal"
+  - name: "Contact"
+    link: "contact"
   - name: "Resume"
     link: "resume.pdf"
-  # - name: "Personal"
-  #   link: "personal"
-  # - name: "Blog"
-#    link: "blog"
 # Force rebuild Wed Jul 30 00:12:20 PDT 2025

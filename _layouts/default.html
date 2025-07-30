@@ -22,7 +22,6 @@
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     {% if site.favicon %}
@@ -57,26 +56,12 @@
     {% endif %}
 </head>
 <body>
-    <!-- PHANTOM MATRIX EFFECTS -->
-    <div class="matrix-rain" id="matrix-rain"></div>
-    <div class="particle-container" id="particle-container"></div>
-    <div class="terminal-cursor" id="terminal-cursor"></div>
-    <div class="ascii-art-container">
-        <div class="ascii-art" id="ascii-art">
-    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░███
-  ███░░██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██░░███
- ███░░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██░░░░███
-███░░░░░░██████████████████████████████████░░░░░░███
-        </div>
-    </div>
-    
     <div class="wrapper">
         <div class="navbar container">
             {% if site.ins_logo %}
                 <img id="ins-logo" src="{{ site.ins_logo }}" />
             {% endif %}
-            <a id="author-name" class="alignable pull-left glitch-hover" href="{{ site.url }}{{ site.baseurl }}" data-text="{{ site.title }}">{{ site.title }}</a>
+            <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
                     {% if x.name == "Resume" %}
@@ -100,10 +85,9 @@
         {% endif %}
                 {{ content }}
                 {% if site.footer == true %}
-                    <hr />
-                    <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
-                    </p>
+                    <div class="footer">
+                        <a href="{{ site.footer_url }}" class="footer-link">{{ site.footer_text }}</a>
+                    </div>
                 {% endif %}
             </div>
     </div>
@@ -118,59 +102,7 @@
         </script>
     {% endif %}
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=Sf5dq6ExMHRYDo_PXbCqMJvICSxAOQOrD5Ve__3fezI"></script>
-    
-    <!-- PHANTOM MATRIX EFFECTS SCRIPT -->
-    <script>
-        // Matrix Rain Effect
-        function createMatrixRain() {
-            const matrixContainer = document.getElementById('matrix-rain');
-            const characters = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
-            
-            for (let i = 0; i < 50; i++) {
-                const column = document.createElement('div');
-                column.className = 'matrix-column';
-                column.style.left = Math.random() * 100 + '%';
-                column.style.animationDelay = Math.random() * 5 + 's';
-                
-                let text = '';
-                for (let j = 0; j < 20; j++) {
-                    text += characters[Math.floor(Math.random() * characters.length)] + '\n';
-                }
-                column.textContent = text;
-                matrixContainer.appendChild(column);
-            }
-        }
-        
-        // Particle System
-        function createParticles() {
-            const particleContainer = document.getElementById('particle-container');
-            
-            for (let i = 0; i < 30; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.animationDelay = Math.random() * 8 + 's';
-                particleContainer.appendChild(particle);
-            }
-        }
-        
-        // Initialize on load
-        document.addEventListener('DOMContentLoaded', function() {
-            createMatrixRain();
-            createParticles();
-            
-            // Add glitch effects to elements
-            const glitchElements = document.querySelectorAll('.glitch-hover');
-            glitchElements.forEach(el => {
-                el.addEventListener('mouseenter', function() {
-                    this.style.animation = 'text-glitch 0.5s ease-in-out';
-                    setTimeout(() => {
-                        this.style.animation = '';
-                    }, 500);
-                });
-            });
-        });
-    </script>
 </body>
 <footer>
 </footer>
+</html>
