@@ -19,12 +19,16 @@ body {
     margin: 0;
     font-family: $font-primary;
     font-size: 16px;
-    line-height: 1.6;
+    font-weight: $font-weight-normal;
+    line-height: 1.7;
     height: 100%;
     background: $bg-primary;
+    background-image: radial-gradient(circle at 20% 80%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 20%, rgba(124, 58, 237, 0.1) 0%, transparent 50%);
     color: $text-primary;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
 }
 
 // Clean selection
@@ -38,23 +42,42 @@ body {
     color: $bg-primary;
 }
 
-// Links
+// Links - Enhanced
 a {
     text-decoration: none;
     color: $accent;
-    transition: color 0.2s ease;
+    font-weight: $font-weight-medium;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
     
     &:hover {
         color: $accent-hover;
+        transform: translateY(-1px);
+    }
+    
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+        background: $gradient-primary;
+        transition: width 0.3s ease;
+    }
+    
+    &:hover::after {
+        width: 100%;
     }
 }
 
-// Horizontal rule
+// Horizontal rule - Enhanced
 hr {
     border: 0;
     height: 1px;
-    background: $border;
-    margin: 2rem 0;
+    background: linear-gradient(90deg, transparent, $border, transparent);
+    margin: 3rem 0;
+    opacity: 0.6;
 }
 
 /*
@@ -62,15 +85,30 @@ hr {
  */
 
 #author-name {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: $font-weight-bold;
     color: $text-primary;
     display: inline-block;
+    background: $gradient-primary;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-2px);
+        filter: brightness(1.1);
+    }
 }
 
 .navbar {
-    padding: 2rem 0;
+    padding: 2.5rem 0;
     border-bottom: 1px solid $border;
+    background: rgba($bg-primary, 0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .navbar-ul {
@@ -86,25 +124,32 @@ hr {
     display: inline-block;
     
     a {
-        font-size: 14px;
+        font-size: 15px;
+        font-weight: $font-weight-medium;
         color: $text-secondary;
-        padding: 0.5rem 0.75rem;
-        border-radius: $border-radius;
-        transition: all 0.2s ease;
+        padding: 0.75rem 1rem;
+        border-radius: $border-radius-sm;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
         
         &:hover {
             color: $text-primary;
-            background: $bg-secondary;
+            background: $bg-card;
+            transform: translateY(-2px);
+            box-shadow: $shadow-sm;
         }
         
         &[target="_blank"] {
-            background: $accent;
-            color: $bg-primary;
-            font-weight: 500;
+            background: $gradient-primary;
+            color: white;
+            font-weight: $font-weight-semibold;
+            box-shadow: $shadow-sm;
             
             &:hover {
-                background: $accent-hover;
-                transform: translateY(-1px);
+                transform: translateY(-3px);
+                box-shadow: $shadow;
+                filter: brightness(1.1);
             }
         }
     }
@@ -139,52 +184,90 @@ hr {
 }
 
 .content {
-    padding: 3rem 0;
+    padding: 4rem 0;
     
     p {
-        font-size: 16px;
-        line-height: 1.7;
+        font-size: 17px;
+        line-height: 1.8;
         color: $text-secondary;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.8rem;
+        font-weight: $font-weight-normal;
         
         &:first-of-type {
-            font-size: 18px;
+            font-size: 20px;
             color: $text-primary;
+            font-weight: $font-weight-medium;
+            line-height: 1.6;
         }
     }
     
     blockquote {
-        background: $bg-secondary;
-        border-left: 3px solid $accent;
-        padding: 1.5rem;
-        margin: 2rem 0;
+        background: $bg-card;
+        border-left: 4px solid;
+        border-image: $gradient-primary 1;
+        padding: 2rem;
+        margin: 3rem 0;
         border-radius: $border-radius;
         font-style: italic;
         color: $text-secondary;
+        box-shadow: $shadow-sm;
+        position: relative;
+        
+        &::before {
+            content: '"';
+            font-size: 4rem;
+            color: $accent;
+            position: absolute;
+            top: -0.5rem;
+            left: 1rem;
+            opacity: 0.3;
+        }
         
         p {
             margin: 0;
-            font-size: 16px;
+            font-size: 17px;
+            line-height: 1.7;
         }
     }
 }
 
-// Profile picture
+// Profile picture - Enhanced
 .profile-picture {
     float: left;
-    margin: 0 2rem 2rem 0;
+    margin: 0 2.5rem 2.5rem 0;
+    position: relative;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        background: $gradient-primary;
+        border-radius: 50%;
+        z-index: -1;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    &:hover::before {
+        opacity: 1;
+    }
     
     img {
         width: $image-size;
         height: $image-size;
         border-radius: 50%;
         object-fit: cover;
-        border: 2px solid $border;
-        transition: all 0.3s ease;
+        border: 3px solid $border;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: $shadow-sm;
         
         &:hover {
-            border-color: $accent;
-            transform: scale(1.02);
+            border-color: transparent;
+            transform: scale(1.05) rotate(2deg);
+            box-shadow: $shadow;
         }
     }
 }
@@ -195,16 +278,21 @@ hr {
 
 .footer {
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
     border-top: 1px solid $border;
     color: $text-muted;
     font-size: 14px;
+    background: $bg-secondary;
+    margin-top: 4rem;
     
     a {
         color: $text-muted;
+        font-weight: $font-weight-medium;
+        transition: all 0.3s ease;
         
         &:hover {
             color: $accent;
+            transform: translateY(-1px);
         }
     }
 }
@@ -283,21 +371,129 @@ hr {
     }
 }
 
-// Clean scrollbar
+// Enhanced scrollbar
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
     background: $bg-secondary;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 4px;
+    background: $gradient-primary;
+    border-radius: 5px;
+    border: 2px solid $bg-secondary;
     
     &:hover {
-        background: $text-muted;
+        background: $gradient-secondary;
+    }
+}
+
+// Enhanced list styling
+.content {
+    ul, ol {
+        margin: 2rem 0;
+        padding-left: 2rem;
+        
+        li {
+            margin-bottom: 0.8rem;
+            line-height: 1.7;
+            color: $text-secondary;
+            
+            &::marker {
+                color: $accent;
+            }
+        }
+    }
+    
+    ul {
+        list-style: none;
+        
+        li {
+            position: relative;
+            padding-left: 1.5rem;
+            
+            &::before {
+                content: '▸';
+                color: $accent;
+                font-weight: bold;
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+    
+    // Enhanced heading styles
+    h1, h2, h3, h4, h5, h6 {
+        color: $text-primary;
+        font-weight: $font-weight-semibold;
+        margin: 2.5rem 0 1.5rem 0;
+        line-height: 1.3;
+        
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        background: $gradient-primary;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        border-bottom: 2px solid $border;
+        padding-bottom: 0.5rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        color: $accent;
+    }
+}
+
+// Add subtle animations
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content {
+    animation: fadeInUp 0.6s ease-out;
+    
+    // Add subtle card styling for better content separation
+    > * {
+        position: relative;
+        z-index: 1;
+    }
+    
+    // Enhanced code blocks (if any)
+    pre, code {
+        background: $bg-card;
+        border: 1px solid $border;
+        border-radius: $border-radius-sm;
+        padding: 1rem;
+        font-family: $font-mono;
+        font-size: 14px;
+        overflow-x: auto;
+        box-shadow: $shadow-sm;
+    }
+    
+    code {
+        padding: 0.2rem 0.4rem;
+        font-size: 15px;
+        background: $bg-tertiary;
     }
 }
 
