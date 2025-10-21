@@ -1,40 +1,27 @@
 /*
- * MODERN ENHANCED VARIABLES
+ * CLEAN PROFESSIONAL VARIABLES
  */
 
-// Core colors - Enhanced & Modern
-$bg-primary: #0a0e14;
-$bg-secondary: #1a1f2e; 
-$bg-tertiary: #252b3d;
-$bg-card: #1e2430;
-$text-primary: #f8fafc;
-$text-secondary: #a0aec0;
-$text-muted: #718096;
-$accent: #667eea;
-$accent-hover: #7c3aed;
-$accent-light: #a78bfa;
-$border: #2d3748;
-$border-muted: #1a202c;
-$gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-$gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+// Core colors - Clean & Modern
+$bg-primary: #0d1117;
+$bg-secondary: #161b22; 
+$bg-tertiary: #21262d;
+$text-primary: #f0f6fc;
+$text-secondary: #8b949e;
+$text-muted: #6e7681;
+$accent: #58a6ff;
+$accent-hover: #79c0ff;
+$border: #30363d;
+$border-muted: #21262d;
 
-// Typography - Enhanced
-$font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-$font-mono: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-medium: 500;
-$font-weight-semibold: 600;
-$font-weight-bold: 700;
+// Typography
+$font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+$font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
 
-// Sizes - Enhanced
-$image-size: 180px;
-$border-radius: 12px;
-$border-radius-sm: 8px;
-$border-radius-lg: 16px;
-$shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-$shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
-$shadow-lg: 0 32px 64px rgba(0, 0, 0, 0.4);
+// Sizes
+$image-size: 160px;
+$border-radius: 6px;
+$shadow: 0 16px 32px rgba(1, 4, 9, 0.85);
 
 /*
  * Build Variables
