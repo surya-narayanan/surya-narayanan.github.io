@@ -24,6 +24,18 @@
     <meta name="description" content="{{ desc }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
+    <style>
+    /* Inline overrides to ensure minimal light aesthetic while caches update */
+    body { background:#ffffff; color:#111111; }
+    .site-title a { color:#111111; }
+    .site-header { text-align:center; padding:3rem 0 2rem 0; }
+    .site-menu { list-style:none; padding:0; margin:0; }
+    .site-menu-item { margin:0.25rem 0; text-transform:lowercase; }
+    a { color:#111111; text-decoration:none; }
+    a:hover { color:#666666; text-decoration:underline; text-underline-offset:2px; }
+    blockquote { background:transparent; border-left:2px solid #e5e5e5; padding:0.5rem 1rem; }
+    .footer { display:none; }
+    </style>
     {% if site.favicon %}
         <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
         <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
