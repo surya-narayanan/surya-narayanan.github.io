@@ -42,10 +42,12 @@ body {
 a {
     text-decoration: none;
     color: $accent;
-    transition: color 0.2s ease;
-    
+    transition: color 0.15s ease;
+
     &:hover {
         color: $accent-hover;
+        text-decoration: underline;
+        text-underline-offset: 2px;
     }
 }
 
@@ -61,53 +63,36 @@ hr {
  * NAVIGATION
  */
 
-#author-name {
-    font-size: 24px;
+.site-header {
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 28px;
     font-weight: 600;
+    margin: 0 0 1.25rem 0;
+    letter-spacing: 0.5px;
+}
+
+.site-title a {
     color: $text-primary;
-    display: inline-block;
 }
 
-.navbar {
-    padding: 2rem 0;
-    border-bottom: 1px solid $border;
-}
-
-.navbar-ul {
-    display: inline-block;
+.site-nav {
     margin: 0;
-    padding: 0;
-    margin-left: 2rem;
 }
 
-.nav-list {
-    list-style-type: none;
-    margin: 0 1rem 0 0;
-    display: inline-block;
-    
-    a {
-        font-size: 14px;
-        color: $text-secondary;
-        padding: 0.5rem 0.75rem;
-        border-radius: $border-radius;
-        transition: all 0.2s ease;
-        
-        &:hover {
-            color: $text-primary;
-            background: $bg-secondary;
-        }
-        
-        &[target="_blank"] {
-            background: $accent;
-            color: $bg-primary;
-            font-weight: 500;
-            
-            &:hover {
-                background: $accent-hover;
-                transform: translateY(-1px);
-            }
-        }
-    }
+.site-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-menu-item {
+    margin: 0.25rem 0;
+    font-size: 15px;
+    text-transform: lowercase;
 }
 
 .alignable {
@@ -131,7 +116,7 @@ hr {
 .container {
     max-width: $max-width;
     margin: auto;
-    padding: 0 2rem;
+    padding: 0 1.25rem;
 }
 
 .wrapper {
@@ -139,29 +124,24 @@ hr {
 }
 
 .content {
-    padding: 3rem 0;
-    
+    padding: 2rem 0 3rem 0;
+
     p {
         font-size: 16px;
         line-height: 1.7;
         color: $text-secondary;
-        margin-bottom: 1.5rem;
-        
-        &:first-of-type {
-            font-size: 18px;
-            color: $text-primary;
-        }
+        margin-bottom: 1rem;
     }
-    
+
     blockquote {
-        background: $bg-secondary;
-        border-left: 3px solid $accent;
-        padding: 1.5rem;
-        margin: 2rem 0;
-        border-radius: $border-radius;
+        background: transparent;
+        border-left: 2px solid $border;
+        padding: 0.5rem 1rem;
+        margin: 1.5rem 0;
+        border-radius: 0;
         font-style: italic;
         color: $text-secondary;
-        
+
         p {
             margin: 0;
             font-size: 16px;
@@ -194,19 +174,7 @@ hr {
  */
 
 .footer {
-    text-align: center;
-    padding: 2rem 0;
-    border-top: 1px solid $border;
-    color: $text-muted;
-    font-size: 14px;
-    
-    a {
-        color: $text-muted;
-        
-        &:hover {
-            color: $accent;
-        }
-    }
+    display: none;
 }
 
 /*
@@ -216,7 +184,7 @@ hr {
 @media (max-width: 800px) {
     .container {
         max-width: $med-width;
-        padding: 0 1.5rem;
+        padding: 0 1rem;
     }
 }
 
@@ -224,82 +192,16 @@ hr {
     .container {
         padding: 0 1rem;
     }
-    
-    .navbar-ul {
-        margin-left: 1rem;
-        margin-top: 0.5rem;
-    }
-    
-    .profile-picture {
-        float: none;
-        margin: 0 auto 2rem auto;
-        display: block;
-        text-align: center;
-        
-        img {
-            width: 140px;
-            height: 140px;
-        }
-    }
 }
 
 @media (max-width: 500px) {
-    .navbar {
-        text-align: center;
-        padding: 1.5rem 0;
-    }
-    
-    #author-name {
-        width: 100%;
-        float: none;
-        margin-bottom: 1rem;
-        font-size: 20px;
-    }
-    
-    #navlist {
-        padding: 0;
-        margin: 0;
-        display: block;
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-    
-    #navlist li.alignable {
-        display: inline-block;
-        margin: 0.25rem 0.5rem;
-    }
-    
-    #navlist li.pull-left {
-        float: none;
-    }
-    
-    #navlist li.nav-list {
-        margin: 0 0.25rem;
-    }
-    
     .content {
-        padding: 2rem 0;
+        padding: 1.5rem 0 2.5rem 0;
     }
 }
 
 // Clean scrollbar
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: $bg-secondary;
-}
-
-::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 4px;
-    
-    &:hover {
-        background: $text-muted;
-    }
-}
+/* Minimal scrollbars removed for a clean, default look */
 
 @import "typography";
 @import "tables";

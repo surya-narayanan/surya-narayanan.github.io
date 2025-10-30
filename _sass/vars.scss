@@ -2,30 +2,30 @@
  * CLEAN PROFESSIONAL VARIABLES
  */
 
-// Core colors - Clean & Modern
-$bg-primary: #0d1117;
-$bg-secondary: #161b22; 
-$bg-tertiary: #21262d;
-$text-primary: #f0f6fc;
-$text-secondary: #8b949e;
-$text-muted: #6e7681;
-$accent: #58a6ff;
-$accent-hover: #79c0ff;
-$border: #30363d;
-$border-muted: #21262d;
+// Core colors - Minimal, light aesthetic
+$bg-primary: #ffffff;
+$bg-secondary: #f7f7f7; 
+$bg-tertiary: #eeeeee;
+$text-primary: #111111;
+$text-secondary: #333333;
+$text-muted: #666666;
+$accent: #111111; // links are simple black
+$accent-hover: #666666; // subtle gray on hover
+$border: #e5e5e5;
+$border-muted: #f0f0f0;
 
 // Typography
-$font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-$font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+$font-primary: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-mono: 'SF Mono', Menlo, Monaco, Consolas, 'Roboto Mono', monospace;
 
 // Sizes
 $image-size: 160px;
-$border-radius: 6px;
-$shadow: 0 16px 32px rgba(1, 4, 9, 0.85);
+$border-radius: 0;
+$shadow: none;
 
 /*
  * Build Variables
  */
-$max-width: 800px;
-$med-width: 700px;
-$small-width: 500px;
+$max-width: 700px;
+$med-width: 600px;
+$small-width: 480px;

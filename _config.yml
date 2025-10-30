@@ -19,9 +19,9 @@ baseurl: ""
 
 tracking_id: #
 
-footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Forked from design by Ankit Sultana"
+footer: no
+footer_url: ""
+footer_text: ""
 
 sass:
     style: compressed
