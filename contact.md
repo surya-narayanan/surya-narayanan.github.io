@@ -5,9 +5,9 @@ is_contact: true
 
 * Email: [suryanarayananhari@gmail.com](mailto:suryanarayananhari@gmail.com)
 
-* [LinkedIn](https://www.linkedin.com/in/suryanarayanan21/)
+[LinkedIn](https://www.linkedin.com/in/suryanarayanan21/)
 
-* [Twitter](https://x.com/EcstaticIndian)
+[Twitter](https://x.com/EcstaticIndian)
 
 <!-- * Phone: [+1-6503048805](tel:+16503048805)
 
