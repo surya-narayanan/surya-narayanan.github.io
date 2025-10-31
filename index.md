@@ -1,5 +1,6 @@
 ---
 layout: default
+image: /headshot.jpg
 ---
 
 <!-- ## About Me -->
