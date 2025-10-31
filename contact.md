@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-* Email: [suryanarayananhari@gmail.com](mailto:suryanarayananhari@gmail.com)
+Email: [suryanarayananhari@gmail.com](mailto:suryanarayananhari@gmail.com)
 
 [LinkedIn](https://www.linkedin.com/in/suryanarayanan21/)
 
