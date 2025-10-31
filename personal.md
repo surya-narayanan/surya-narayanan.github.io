@@ -1,3 +1,7 @@
+[LinkedIn](https://www.linkedin.com/in/suryanarayanan21/) | [Twitter](https://x.com/EcstaticIndian)
+
+---
+
 [Movies](movies.md)
  
 [TV shows](tv.md)
