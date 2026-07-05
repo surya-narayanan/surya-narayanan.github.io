@@ -12,7 +12,7 @@ The goal of life, the Dalai Lama said, is to walk into a room and be loved by al
 
 Hi, I'm Surya Narayanan Hari. I working to a PhD at Caltech. My goal is to push the boundaries of the human experience, both by creating new phenomena, and changing how you interpret them.
 
-You may like this about me - my favorite books are The Prophet, Moby Dick and Shopgirl. My favorite movies are The Great Dictator, Tampopo and Children of Paradise. 
+You may like this about me - my favorite books are The Prophet, Moby Dick and Shopgirl. My favorite movies are The Great Dictator, Tampopo, Children of Paradise and The Graduate. 
 
 Reach out to me if you'd like to connect: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
 
