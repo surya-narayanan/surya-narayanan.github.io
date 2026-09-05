@@ -62,7 +62,9 @@
                 <ul class="site-menu">
                     {% for x in site.nav %}
                         <li class="site-menu-item">
-                            {% if x.name == "Resume" %}
+                            {% if x.name == "Contact" and page.is_contact == true %}
+                                <a href="/" onclick="if (history.length > 1) { history.back(); return false; }">Home</a>
+                            {% elsif x.name == "Resume" %}
                                 <a href="{{ x.link }}" target="_blank">{{ x.name }}</a>
                             {% else %}
                                 <a href="{{ x.link }}">{{ x.name }}</a>
