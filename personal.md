@@ -1,4 +1,4 @@
-[LinkedIn](https://www.linkedin.com/in/suryanarayanan21/) | [Twitter](https://x.com/EcstaticIndian)
+[LinkedIn](https://www.linkedin.com/in/suryanarayanan21/) | [Twitter](https://x.com/EcstaticIndian) | [Substack](https://suryanarayananhari.substack.com/)
 
 ---
 

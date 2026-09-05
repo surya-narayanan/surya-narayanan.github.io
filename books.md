@@ -53,3 +53,5 @@ To read
 <!-- 31. The Dialectic of Sex -->
 32. Enough Rope, by Dorothy Parker
 33. The Genius in My Basement
+34. The Theory of the Leisure Class, Thorstein Veblen
+35. Main Currents in American Thought, Vernon Louis Parrington
