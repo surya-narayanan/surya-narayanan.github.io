@@ -6,7 +6,7 @@ image: /headshot.jpg
 <!-- ## About Me -->
 
 <div class="profile-picture">
-  <img src="headshot.jpg" alt="Profile Picture">
+  <a href="https://www.instagram.com/ecstaticindian"><img src="headshot.jpg" alt="Profile Picture"></a>
 </div>
 The goal of life, the Dalai Lama said, is to walk into a room and be loved by all who are there. 
 
