@@ -22,21 +22,19 @@
     <!-- Redirect after 10 seconds to allow social media crawlers to read the metadata -->
     <meta http-equiv="refresh" content="10;url=/preprints/Ideal_ratio_of_pasta_sauce_to_pasta.pdf">
     
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- GoatCounter analytics -->
+    <script data-goatcounter="https://surya-narayanan.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-      
-      // Track PDF download
+      // Record the PDF hand-off as an event, just before the meta refresh fires
       setTimeout(function() {
-        gtag('event', 'download', {
-          'event_category': 'PDF',
-          'event_label': 'Ideal Ratio of Pasta Sauce to Pasta',
-          'value': 1
-        });
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({
+            path: 'download/pasta-ratio.pdf',
+            title: 'Download: Ideal Ratio of Pasta Sauce to Pasta (PDF)',
+            event: true
+          });
+        }
       }, 9000);
     </script>
     
@@ -138,7 +136,7 @@
     </div>
 
     <div class="redirect-notice">
-        <p>You will be redirected to the PDF in a few seconds. If you are not redirected automatically, <a href="/preprints/Ideal_ratio_of_pasta_sauce_to_pasta.pdf" onclick="gtag('event', 'click_download', {'event_category': 'PDF', 'event_label': 'Ideal Ratio of Pasta Sauce to Pasta'});">click here</a>.</p>
+        <p>You will be redirected to the PDF in a few seconds. If you are not redirected automatically, <a href="/preprints/Ideal_ratio_of_pasta_sauce_to_pasta.pdf" onclick="window.goatcounter && goatcounter.count({path: 'download/pasta-ratio.pdf', title: 'Download: Ideal Ratio of Pasta Sauce to Pasta (PDF)', event: true});">click here</a>.</p>
     </div>
     
     <div class="visitor-stats">

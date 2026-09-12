@@ -17,7 +17,8 @@ baseurl: ""
 
 #ins_logo: "./bits-logo.png"
 
-tracking_id: #
+# GoatCounter analytics. Dashboard: https://<code>.goatcounter.com  Leave blank to disable.
+goatcounter: surya-narayanan
 
 footer: no
 footer_url: ""

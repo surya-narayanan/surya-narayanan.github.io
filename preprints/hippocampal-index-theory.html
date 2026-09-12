@@ -22,21 +22,19 @@
     <!-- Redirect after 5 seconds to allow social media crawlers to read the metadata -->
     <meta http-equiv="refresh" content="5;url=/preprints/Hippocampal_Index_Theory.pdf">
     
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- GoatCounter analytics -->
+    <script data-goatcounter="https://surya-narayanan.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-      
-      // Track PDF download
+      // Record the PDF hand-off as an event, just before the meta refresh fires
       setTimeout(function() {
-        gtag('event', 'download', {
-          'event_category': 'PDF',
-          'event_label': 'Hippocampal Index Theory',
-          'value': 1
-        });
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({
+            path: 'download/hippocampal-index-theory.pdf',
+            title: 'Download: Hippocampal Index Theory (PDF)',
+            event: true
+          });
+        }
       }, 4000);
     </script>
     
