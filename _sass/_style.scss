@@ -119,11 +119,19 @@ hr {
     padding: 0 1.25rem;
 }
 
+// Flex column so <main> can center itself vertically with auto margins.
+// When content is taller than the viewport the auto margins collapse to 0
+// and the page simply flows from the top (no clipping, unlike justify-content).
 .wrapper {
     min-height: 100vh;
+    min-height: 100dvh; // mobile browsers: exclude the dynamic address bar
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
+    margin-block: auto; // vertical centering inside the flex wrapper
+    width: 100%;
     padding: 2rem 0 3rem 0;
 
     p {
@@ -152,7 +160,15 @@ hr {
 // Profile picture
 .profile-picture {
     float: left;
-    margin: 0 2rem 2rem 0;
+    // Line up the top of the image with the top of the first line of text:
+    // the following <p> loses its default top margin, and the image is nudged
+    // down by the paragraph's half-leading ((1.7 - 1) / 2 em at 16px, ~5.6px).
+    margin: 0.35em 2rem 2rem 0;
+    line-height: 0; // no stray baseline gap under the inline <img>
+
+    + p {
+        margin-top: 0;
+    }
     
     img {
         width: $image-size;
@@ -196,7 +212,16 @@ hr {
 
 @media (max-width: 500px) {
     .content {
-        padding: 1.5rem 0 2.5rem 0;
+        // keep the 1rem side gutters; the old shorthand zeroed them on phones
+        padding: 1.5rem 1rem 2.5rem 1rem;
+    }
+
+    // Phones: stack the headshot above the text instead of floating it,
+    // a 160px float leaves too little width for words.
+    .profile-picture {
+        float: none;
+        text-align: center;
+        margin: 0 0 1.5rem 0;
     }
 }
 
