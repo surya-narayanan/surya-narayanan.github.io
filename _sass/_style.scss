@@ -119,20 +119,33 @@ hr {
     padding: 0 1.25rem;
 }
 
-// Flex column so <main> can center itself vertically with auto margins.
-// When content is taller than the viewport the auto margins collapse to 0
-// and the page simply flows from the top (no clipping, unlike justify-content).
+// Flex column so the header + main pair centers vertically as one block:
+// auto margin above the header and below the main, none between them, so the
+// nav keeps its normal distance from the text. When content is taller than the
+// viewport the auto margins collapse to 0 and the page flows from the top.
 .wrapper {
     min-height: 100vh;
     min-height: 100dvh; // mobile browsers: exclude the dynamic address bar
     display: flex;
     flex-direction: column;
+    // Sit the centered block slightly above true center: a little bottom
+    // padding shrinks the space the auto margins split, nudging everything up.
+    padding-bottom: 10vh;
+}
+
+.site-header {
+    margin-top: auto;
+    margin-bottom: 0;
 }
 
 .content {
-    margin-block: auto; // vertical centering inside the flex wrapper
+    margin-top: 0;
+    margin-bottom: auto;
     width: 100%;
-    padding: 2rem 0 3rem 0;
+    // top padding is 1rem larger than before to give back the first <p>'s
+    // default top margin (dropped for the headshot alignment), keeping the
+    // nav-to-text distance identical to the original layout
+    padding: 3rem 0 3rem 0;
 
     p {
         font-size: 16px;
@@ -154,6 +167,12 @@ hr {
             margin: 0;
             font-size: 16px;
         }
+    }
+
+    // The opening line is kept in the page but rendered in the background
+    // color, so it is invisible (still present for selection and search).
+    p.hidden-line {
+        color: $bg-primary;
     }
 }
 
@@ -213,7 +232,7 @@ hr {
 @media (max-width: 500px) {
     .content {
         // keep the 1rem side gutters; the old shorthand zeroed them on phones
-        padding: 1.5rem 1rem 2.5rem 1rem;
+        padding: 2.5rem 1rem 2.5rem 1rem;
     }
 
     // Phones: stack the headshot above the text instead of floating it,
