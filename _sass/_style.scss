@@ -180,19 +180,11 @@ hr {
         }
     }
 
-    // The opening line stays in the page for search and screen readers but
-    // takes no space at all (standard visually-hidden pattern), so the
-    // headshot lines up with the first *visible* line.
+    // The opening line is kept in the page but rendered in the background
+    // color, so it is invisible until selected (same trick as the hidden
+    // nav link). It still holds its line of space.
     p.hidden-line {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        white-space: nowrap;
+        color: $bg-primary;
     }
 }
 
