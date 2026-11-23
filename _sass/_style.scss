@@ -95,6 +95,17 @@ hr {
     text-transform: lowercase;
 }
 
+// A link that is in the menu but drawn in the background color, so it is
+// invisible unless you know (or hover, select, or tab) to look for it.
+.site-menu-item--hidden a {
+    color: $bg-primary;
+
+    &:hover,
+    &:focus-visible {
+        color: $accent-hover;
+    }
+}
+
 .alignable {
     display: inline-block;
 }
@@ -169,25 +180,50 @@ hr {
         }
     }
 
-    // The opening line is kept in the page but rendered in the background
-    // color, so it is invisible (still present for selection and search).
+    // The opening line stays in the page for search and screen readers but
+    // takes no space at all (standard visually-hidden pattern), so the
+    // headshot lines up with the first *visible* line.
     p.hidden-line {
-        color: $bg-primary;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        white-space: nowrap;
+    }
+}
+
+// Intro row: headshot beside the intro paragraphs, no float, so nothing
+// wraps under the photo and there is no reserved gap beneath it.
+.intro {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.intro-text {
+    flex: 1 1 auto;
+    min-width: 0;
+
+    > p {
+        margin-top: 0; // paragraph spacing comes from margin-bottom alone
+    }
+
+    > :last-child {
+        margin-bottom: 0; // the paragraph after the row supplies the spacing
     }
 }
 
 // Profile picture
 .profile-picture {
-    float: left;
-    // Line up the top of the image with the top of the first line of text:
-    // the following <p> loses its default top margin, and the image is nudged
-    // down by the paragraph's half-leading ((1.7 - 1) / 2 em at 16px, ~5.6px).
-    margin: 0.35em 2rem 2rem 0;
+    flex: 0 0 auto;
+    // Nudge the image down by the first line's half-leading
+    // ((1.7 - 1) / 2 em at 16px, ~5.6px) so its top meets the top of the letters.
+    margin: 0.35em 0 0 0;
     line-height: 0; // no stray baseline gap under the inline <img>
-
-    + p {
-        margin-top: 0;
-    }
     
     img {
         width: $image-size;
@@ -235,12 +271,20 @@ hr {
         padding: 2.5rem 1rem 2.5rem 1rem;
     }
 
-    // Phones: stack the headshot above the text instead of floating it,
-    // a 160px float leaves too little width for words.
+    // Phones: stack the headshot above the text, a 160px photo beside the
+    // text leaves too little width for words.
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
     .profile-picture {
-        float: none;
-        text-align: center;
-        margin: 0 0 1.5rem 0;
+        margin: 0;
+    }
+
+    .intro-text {
+        width: 100%;
     }
 }
 

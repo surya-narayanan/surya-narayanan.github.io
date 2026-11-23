@@ -33,4 +33,7 @@ nav:
     link: "contact"
   - name: "Resume"
     link: "resume.pdf"
+  - name: "Anecdotes"
+    link: "anecdotes"
+    hidden: true
 # Force rebuild Wed Jul 30 11:30:00 PDT 2025 - CLEAN VERSION
