@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Anecdotes
+home_link: true
 ---
 
 In the 1930s, Mysore Vasudevacharya attended a concert where Maharajapuram Viswanatha Iyer performed Brochevarevarura. Iyer was renowned for his imaginative manodharma (improvisation) and dazzling vocal embellishments (sangathis and brigas).

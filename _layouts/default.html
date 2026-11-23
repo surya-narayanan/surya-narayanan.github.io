@@ -60,9 +60,14 @@
         <header class="site-header container">
             <nav class="site-nav">
                 <ul class="site-menu">
+                    {% comment %} Pages that set is_contact or home_link show Home (back) in place of Contact. {% endcomment %}
+                    {% assign show_home = false %}
+                    {% if page.is_contact == true or page.home_link == true %}
+                        {% assign show_home = true %}
+                    {% endif %}
                     {% for x in site.nav %}
                         <li class="site-menu-item{% if x.hidden %} site-menu-item--hidden{% endif %}">
-                            {% if x.name == "Contact" and page.is_contact == true %}
+                            {% if x.name == "Contact" and show_home %}
                                 <a href="/">Home</a>
                             {% elsif x.name == "Resume" %}
                                 <a href="{{ x.link }}" target="_blank">{{ x.name }}</a>

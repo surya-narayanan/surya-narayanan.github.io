@@ -182,9 +182,16 @@ hr {
 
     // The opening line is kept in the page but rendered in the background
     // color, so it is invisible until selected (same trick as the hidden
-    // nav link). It still holds its line of space.
+    // nav link). It is lifted out of the flow and parked just above the
+    // intro text, so it takes no space and the headshot lines up with the
+    // first *visible* line ("Hi, ...").
     p.hidden-line {
         color: $bg-primary;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 100%;
+        margin: 0 0 1rem 0;
     }
 }
 
@@ -199,6 +206,7 @@ hr {
 .intro-text {
     flex: 1 1 auto;
     min-width: 0;
+    position: relative; // anchors the absolutely positioned hidden line
 
     > p {
         margin-top: 0; // paragraph spacing comes from margin-bottom alone
@@ -277,6 +285,13 @@ hr {
 
     .intro-text {
         width: 100%;
+
+        // Stacked layout: the photo sits right above the text, so an
+        // out-of-flow line would overlap it. Let it hold its space instead.
+        p.hidden-line {
+            position: static;
+            margin-bottom: 1rem;
+        }
     }
 }
 
