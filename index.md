@@ -13,9 +13,9 @@ image: /headshot.jpg
 The goal of life, the Dalai Lama said, is to walk into a room and be loved by all who are there.
 {: .hidden-line}
 
-Hi, I'm Surya Narayanan Hari. I am working toward a PhD at Caltech. Before this, I worked at Dana Farber Cancer Institute and was at Stanford for my Bachelors and Masters.
+Hi, I'm Surya Narayanan Hari. I am working toward a PhD at Caltech. Before this, I worked at Dana Farber Cancer Institute and did my undergrad at Stanford.
 
-Reach out to me if you'd like to connect: allmynamestogether@gmail.com / firstinitiallastname@caltech.edu
+[X](https://x.com/EcstaticIndian) | [LinkedIn](https://www.linkedin.com/in/suryanarayanan21/)
 </div>
 </div>
 
